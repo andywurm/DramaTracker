@@ -1,0 +1,11 @@
+.nav-tabs{
+    /* border: solid red 1px; */
+    width: 100vw;
+    justify-content: center;
+}
+.ListTabs{
+    color: #a70505;
+}
+.ListTabs:hover{
+    color:#ff3535;
+}

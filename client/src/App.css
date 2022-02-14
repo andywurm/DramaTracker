@@ -1,23 +1,51 @@
-/*.App {
-  text-align: center;
+.login {
+  margin-right: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
+.input-group{
+  max-width: 300px;
+  background-color: white;
+  border-radius: 5px;
+  margin-right: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.inputbar{
+  border-style: none;
 }
 
-.App-link {
-  color: #09d3ac;
+.input-group-addon{
+  background-color: #cb0f0f;
+  border-radius: 5px;
+  border: .5px solid white;
+  width: 20%;
 }
-*/
+
+.searchPls{
+  width: 19px;
+  height: 18px;
+  position: relative;
+  top: -3px;
+  /* border: solid blue 1px; */
+}
+
+.bg-primary {
+  background-color: #cb0f0f!important;
+}
+
+.nav-item {
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+.navbar-brand{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.logo{
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: -2px;
+}
+
