@@ -34,11 +34,11 @@ function ShowPage(props) {
 
       <br />
 
-      <div className='row displayRows'>
+      <div className='row card-deck'>
 
         {data.map(obj => {
           if (obj.type === 'show') {
-            return <div className='col-sm-3 displayContent'>
+            return <div className='col-sm-3'>
               <div class="card shadow">
                 <img className='imageCheck' src={`../img/${obj.photo}`} alt={obj.title}></img>
                 <div class="card-body">
@@ -49,23 +49,6 @@ function ShowPage(props) {
           }
         })}
 
-        {/* <div className='col-sm-3 displayContent'>
-          <div class="card shadow">
-            <img className='imageCheck' src={MysteryToIuNakare} alt="MysteryToIuNakare"></img>
-            <div class="card-body">
-              <p class="card-text">Don't Say Mystery </p>
-            </div>
-          </div>
-        </div>
-
-        <div className='col-sm-3 displayContent'>
-          <div class="card shadow">
-            <img className='imageCheck' src={Avalanche} alt="Avalanche"></img>
-            <div class="card-body">
-              <p class="card-text">Avalanche </p>
-            </div>
-          </div>
-        </div> */}
 
         <br />
 

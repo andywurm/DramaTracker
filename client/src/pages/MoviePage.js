@@ -33,7 +33,7 @@ function MoviePage(props) {
 
       <br />
 
-      <div className='row displayRows'>
+      <div className='row displayRows card-deck'>
 
         {data.map(obj => {
           if (obj.type === 'movie') {

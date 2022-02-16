@@ -127,5 +127,37 @@ export const data = [
         type: 'show',
         description: 'Makino Tsukushi is a poor, but bright high school student who attends an exclusive high school for rich people. She ends up having encounters with the bachelor F4 and experiences love and friendship.'
     }
+    ,
+    {
+        title: 'Shitsuren Chocolatier',
+        genre: ['Romance'],
+        photo: 'ShitsurenChocolatierPoster.jpg',
+        type: 'show',
+        description: 'A culinary students one-sided, unrequited love for his once high school sweetheart, is bittersweet; His love for her and her love for chocolate lead him on a quest to creating the perfect chocolate.'
+    }
+    , 
+    {
+        title: 'Unnatural',
+        genre: ['Crime', 'Medical'],
+        photo: 'UnnaturalPoster.jpg',
+        type: 'show',
+        description: 'Mikoto Misumi is a pathologist at UDI Lab. She can not stand neglecting unnatural deaths.' 
+    }
+    , 
+    {
+        title: 'Konto ga Hajimaru',
+        genre: ['Life'],
+        photo: 'KontoGaHajimaruPoster.jpg',
+        type: 'show',
+        description: 'The story of five young people in their late 20s who try to overcome their great failures in life. Haruto Takaiwa, Shunta Asabuki and Junpei Minowa are members of unpopular comedy trio Macbeth. They always gather at a family restaurant where Rihoko Nakahama works as a waitress. Tsumugi Nakahama is Rihoko Nakahamas younger sister.'
+    }
+    ,
+    {
+        title: '99.9',
+        genre: ['Crime'],
+        photo: '99.9Poster.jpg',
+        type: 'show',
+        description: 'Hiroto Miyama is a poor lawyer who takes on criminal cases, but is unsuccessful. He pursues the truth for the 0.1% out of Japans 99.9% conviction rate. One day, Hiroto is scouted by Haruhiko Madarame, the head of Madarame Law Firm which is one of the biggest law firms. Hiroto begins to work for him.'
+    }
 
 ]

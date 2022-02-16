@@ -1,0 +1,19 @@
+.OutterBox{
+    border: 1px rgb(155, 155, 155) solid;
+    position: relative;
+    top: 20px;
+    height: 72vh;
+    width:65vw;
+    background-color: rgb(250, 250, 250);
+    overflow:auto;
+}
+
+.SignUpField{
+    margin-top: 20px;
+}
+
+.signupMove{
+    /* border: solid red 1px; */
+    position: relative;
+    top:8%;
+}

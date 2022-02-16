@@ -1,0 +1,75 @@
+.rectLog{
+    /* border: solid red 1px; */
+    border: 1px rgb(155, 155, 155) solid;
+    position: relative;
+    top: 20px;
+    height: 70vh;
+    width:500px;
+    background-color: rgb(250, 250, 250);
+    overflow:auto;
+
+}
+
+.container{
+
+  /* border:solid 1px red; */
+
+}
+.LoginPageh2{
+  color:#a70505;
+  /* border: solid red 1px; */
+}
+
+.DontHaveAccount{
+    margin-top: 40px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.logo2{
+    height:55px;
+    width:42px;
+}
+
+.SignUpLink{
+    color:rgb(167, 34, 34);
+}
+
+.profileInput{
+    border: solid 1.5px rgb(133, 20, 20);
+    width: 300px;
+    text-align: left;
+}
+
+.LoginField{
+    margin-top: 20px;
+    /* border: solid red 1px; */
+
+}
+
+.ActualLoginHere{
+    /* border: solid red 1px; */
+    position: relative;
+    top: 1px;
+}
+
+.LoginHere{
+    position: relative;
+    top: 60px;
+}
+
+.btn{
+    background-color:#cb0f0f;
+}
+
+@media (max-width: 990px) { 
+    /* .rectLog{
+        height: 75vh;
+        width:90vw;
+    }
+    label{
+        width: 150px;
+    }
+    .changeInput, .profileInput{
+        width:130px;
+    } */
+ }

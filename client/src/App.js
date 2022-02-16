@@ -12,6 +12,7 @@ import ShowPage from './pages/ShowPage';
 import MoviePage from './pages/MoviePage';
 import MyListPage from './pages/MyListPage';
 import LoginPage from './pages/LoginPage';
+import SignUpPage from './pages/SignUpPage';
 import WatchingPage from './pages/WatchingPage';
 import PlanPage from './pages/PlanPage';
 
@@ -21,6 +22,8 @@ import logo from '../src/images/logo.png';
 import './App.css';
 import './HomeStyle.css';
 import './MyListStyle.css';
+import './LoginStyle.css';
+import './SignUpStyle.css';
 
 
 function Navigation(props) {
@@ -76,6 +79,7 @@ class App extends React.Component {
               <Route path="/movies" component={MoviePage} />
               <Route path="/mylist" component={MyListPage} />
               <Route path="/login" component={LoginPage} />
+              <Route path="/signup" component={SignUpPage} />
               <Route path="/watching" component={WatchingPage} />
               <Route path="/plan" component={PlanPage} />
             </Switch>
