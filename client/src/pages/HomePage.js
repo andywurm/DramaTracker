@@ -1,9 +1,29 @@
-import React from 'react';
-import { data } from '../data/Database.js';
+
+import React, { useEffect, useState } from 'react';
+import DisplayCards from '../components/DisplayCards.js';
+import Dropdown from '../components/Dropdown.js';
+
 
 function HomePage(props) {
 
-  console.log({ data })
+
+  const [genre, setGenre] = useState();
+  const [contents, setContents] = useState([]);
+
+  useEffect(() => {
+
+    const getData = async () => {
+      const data = await fetch('http://localhost:5000/api/contents')
+
+      const json = await data.json();
+      setContents(json);
+      console.log(json);
+
+    }
+
+    getData();
+
+  }, [])
 
   return (
 
@@ -18,9 +38,7 @@ function HomePage(props) {
           <div className='PageTop'> </div>
         </div>
         <div className='col-md cat'>
-          <div className='category'>
-            &#9776; Genre
-          </div>
+         <Dropdown setGenre={setGenre} />
         </div>
       </div>
 
@@ -39,20 +57,8 @@ function HomePage(props) {
       <br />
       <div className='ActualContainer'>
 
-        <div className='row  displayRows card-deck'>
+        <DisplayCards list={contents.filter((e) => !genre || e.genre.includes(genre))} />
 
-          {data.map(obj => {
-            return <div className='col-sm-3 displayContent'>
-              <div class="card shadow">
-                <img className='imageCheck' src={`../img/${obj.photo}`} alt={obj.title}></img>
-                <div class="card-body">
-                  <p class="card-text">{obj.title} </p>
-                </div>
-              </div>
-            </div>
-          })}
-
-        </div>
         <br />
 
       </div>
@@ -62,9 +68,7 @@ function HomePage(props) {
       </div>
 
 
-
     </div>
-
 
 
   );

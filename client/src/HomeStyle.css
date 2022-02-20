@@ -13,11 +13,6 @@
     border: outset 1.3px;
 }
 
-.ActualContainer{
-    /* border:solid 1px #cb0f0f;  */
-
-}
-
 .card{
     width: 190px;
     border:solid 1px #cb0f0f; 
@@ -26,10 +21,10 @@
 }
 
 .category{
-    font-size: 1.5em;
+   
     position: relative;
-    top: 8px;
-    color: #a70505;
+    top: 14px;
+    
 }
 
 .card-deck, .card{
@@ -77,4 +72,8 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: .5rem;
+}
+
+.row{
+    /* border: solid red 1px; */
 }

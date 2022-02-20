@@ -1,5 +1,5 @@
 
-export const data = [
+module.exports = [
     {  
         title: 'Dont Call It Mystery',
         genre: ['Mystery', 'Psychological'],
@@ -42,7 +42,7 @@ export const data = [
     ,
     {
         title: '1 Litre Of Tears',
-        genre: ['Tragedy','Family'],
+        genre: ['Family'],
         photo: '1LitreOfTearsPoster.jpg',
         type: 'show',
         description: 'based on a true story of a 15-year-old girl named Aya Kitō, who suffered from degenerative disease '
@@ -106,7 +106,7 @@ export const data = [
     ,
     {
         title: 'Theatre',
-        genre: ['Romance','Mystery'],
+        genre: ['Romance','Life'],
         photo: 'GekijouPoster.jpg',
         type: 'movie',
         description:'The director of a theatre company is in crisis and his actors have lost confidence in him. One day he meets a woman wearing the same shoes as him, immediately sparking chemistry between the two.'

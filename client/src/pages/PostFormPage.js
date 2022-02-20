@@ -21,10 +21,10 @@ class PostFormPage extends React.Component {
       headers: {
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify({content: this.state.content}),
+      body: JSON.stringify({ content: this.state.content }),
     })
       .then(res => {
-        if(res.ok) {
+        if (res.ok) {
           return res.json()
         }
 
@@ -43,10 +43,10 @@ class PostFormPage extends React.Component {
   }
 
   render() {
-    if(this.state.success) return <Redirect to="/" />;
+    if (this.state.success) return <Redirect to="/" />;
 
     let errorMessage = null;
-    if(this.state.error) {
+    if (this.state.error) {
       errorMessage = (
         <div className="alert alert-danger">
           "There was an error saving this post."
@@ -56,11 +56,11 @@ class PostFormPage extends React.Component {
 
     return (
       <div className="col-10 col-md-8 col-lg-7">
-        { errorMessage }
+        {errorMessage}
         <div className="input-group">
-          <input 
-            type="text" 
-            placeholder="Add your words of wisdom here..." 
+          <input
+            type="text"
+            placeholder="Add your words of wisdom here..."
             value={this.state.content}
             className="form-control mr-3 rounded"
             onChange={this.contentChanged}
