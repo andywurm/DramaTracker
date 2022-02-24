@@ -58,7 +58,7 @@ function ShowPage(props) {
 
         <br />
 
-        <div class="footer-copyright text-center py-5">© 2022 Copyright:
+        <div className="footer-copyright text-center py-5">© 2022 Copyright:
           Drama Tracker
         </div>
 

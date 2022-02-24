@@ -3,23 +3,26 @@ const { Model } = require('sequelize');
 
 
 module.exports = (sequelize, DataTypes) => {
-  class Content extends Model {}
+  class Content extends Model { }
 
   Content.init({
-    title:{
-        type: DataTypes.STRING
+    title: {
+      type: DataTypes.STRING
     },
-    genre:{
-        type: DataTypes.STRING
+    genre: {
+      type: DataTypes.STRING
     },
-    photo:{
-        type: DataTypes.STRING
+    photo: {
+      type: DataTypes.STRING
     },
-    media:{
-        type: DataTypes.STRING
+    cast: {
+      type: DataTypes.STRING
+    },
+    media: {
+      type: DataTypes.STRING
     },
     description: {
-        type: DataTypes.TEXT
+      type: DataTypes.TEXT
     }
   }, {
     sequelize,

@@ -17,7 +17,7 @@ function LoginPage(props) {
             <h2 className="LoginPageh2">Login</h2>
             <div className='ActualLoginHere'>
               <div className="LoginField"> <input className="changeInput rounded profileInput" type="text" placeholder='  Username' ></input> </div>
-              <div className="LoginField"> <input className="changeInput rounded profileInput" type="text" placeholder='  Password' ></input> </div>
+              <div className="LoginField"> <input className="changeInput rounded profileInput" type="password" placeholder='  Password' ></input> </div>
 
               <br />
               <button type="button" class="btn btn-primary">Login</button>

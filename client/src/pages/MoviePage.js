@@ -59,7 +59,7 @@ function MoviePage(props) {
 
         <br />
 
-        <div class="footer-copyright text-center py-5"> © 2022 Copyright:Drama Tracker
+        <div className="footer-copyright text-center py-5"> © 2022 Copyright:Drama Tracker
         </div>
 
 

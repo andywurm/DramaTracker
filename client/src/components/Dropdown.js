@@ -6,7 +6,8 @@ function Dropdown({setGenre}){
     return (
         <div className='category'>
             <select onChange={(e) => setGenre(e.target.value)} class="form-select" aria-label="Default select example">
-              <option selected value="">  &#9776; Genre </option>
+              <option defaultValue={""} value="">  &#9776; Genre </option>
+              <option value="Action">Action</option>
               <option value="Romance">Romance</option>
               <option value="Comedy">Comedy</option>
               <option value="Crime">Crime</option>
@@ -16,6 +17,7 @@ function Dropdown({setGenre}){
               <option value="School">School</option>
               <option value="Psychological">Psyhcological</option>
               <option value="Family">Family</option>
+              <option value="Medical">Medical</option>
             </select>
           </div>
 

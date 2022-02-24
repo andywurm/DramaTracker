@@ -43,6 +43,7 @@ db.sequelize.sync({ force: true }).then(async( ) =>  {
   database.forEach(async(e) => {
    await Content.create({
      genre: e.genre.join(" "),
+     cast: e.cast.join(" "),
      title: e.title,
      description: e.description,
      photo: e.photo,
