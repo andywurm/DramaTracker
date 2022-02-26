@@ -4,7 +4,7 @@ module.exports = [
         title: 'Dont Call It Mystery',
         genre: ['Mystery', 'Psychological'],
         photo: 'MysteryToIuNakarePoster.jpg',
-        cast: ['Suda Masaki'],
+        cast: ['Suda Masaki','Ito Sairi'],
         type: 'show',
         description: 'Kuno Totono is a mystery-solving college student. One day when he is in the middle of making curry, the police show up to his house and accuse him of committing a crime he does not remember. From here he figures out who the real culprit is and begins to go on adventures helping the police to solve crimes in different and quirky ways.'
     }
@@ -33,7 +33,7 @@ module.exports = [
         photo: 'KimiNiTodokePoster.jpg',
         cast: ['Miura Haruma!','Tabe Mikako!','Iura Arata'],
         type: 'movie',
-        description: 'Sawako Kuronuma has always been avoided by her classmates because her name, her appearance and her manner too strongly resembles that of "Sadako", the main character in the 1998 horror film Ring. They believe that when one stared into Sawakos eyes for more than three seconds, bad luck will befall the person. These rumors get worse because Sawako is unable to express her views. However, Sawako is a kind person whose motto is "to do one good thing once a day". Shota Kazehaya, on the other hand, is an outgoing student who is popular with his schoolmates, especially the girls. On the first day of school, Sawako helped Kazehaya, who was lost, to find his way to the school. Since that day, Kazehaya treats Sawako with kindness, making Sawako respect and admire him. Sawako also made friends with her classmates Chizuru Yoshida and Ayane Yano after she agrees to play the role of the ghost in their class "Bravery Challenge". With their help, she manages to gain self-confidence and interacts better with her classmates. The rumors about her also began to subside. However, Ume Kurumizawa, an admirer of Kazehaya, starts to become jealous of the way Sawako is being treated by Kazehaya.'
+        description: 'Sawako Kuronuma has always been avoided by her classmates because her name, her appearance and her manner too strongly resembles that of "Sadako", the main character in the 1998 horror film Ring. They believe that when one stared into Sawakos eyes for more than three seconds, bad luck will befall the person. These rumors get worse because Sawako is unable to express her views. However, Sawako is a kind person whose motto is "to do one good thing once a day". Shota Kazehaya, on the other hand, is an outgoing student who is popular with his schoolmates, especially the girls. !!! On the first day of school, Sawako helped Kazehaya, who was lost, to find his way to the school. Since that day, Kazehaya treats Sawako with kindness, making Sawako respect and admire him. Sawako also made friends with her classmates Chizuru Yoshida and Ayane Yano after she agrees to play the role of the ghost in their class "Bravery Challenge". With their help, she manages to gain self-confidence and interacts better with her classmates. The rumors about her also began to subside. However, Ume Kurumizawa, an admirer of Kazehaya, starts to become jealous of the way Sawako is being treated by Kazehaya.'
     }
     ,
     {
@@ -69,7 +69,7 @@ module.exports = [
         photo: 'OboreruKnifePoster.jpg',
         cast: ['Suda Masaki!','Komatsu Nana!','Kamishiraishi Mone'],
         type: 'movie',
-        description:'Natsume Mochizuki is a Teen idol in Tokyo who has to give up on her career and moves to her fathers hometown. There she meets Koichiro Hasegawa who belongs to a wealthy family. They develop feelings for each other which leads to other events, possibly changing their fates.'
+        description:'Natsume Mochizuki is a teen idol in Tokyo who has to give up on her career and moves to her fathers hometown. There she meets Koichiro Hasegawa who belongs to a wealthy family. They develop feelings for each other which leads to other events, possibly changing their fates.'
     }
     ,
     {

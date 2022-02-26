@@ -8,7 +8,7 @@ function WatchingPage(props) {
           <a class="nav-link ListTabs" href='/mylist' >Completed</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active ListTabs" aria-current="page">Watching</a>
+          <a class="nav-link active ListTabs" href='/watching' aria-current="page">Watching</a>
         </li>
         <li class="nav-item">
           <a class="nav-link ListTabs" href="/plan">Plan to Watch</a>

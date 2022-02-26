@@ -5,9 +5,11 @@ const db = require('./models');
 const app = express();
 const PORT = process.env.PORT||5000;
 const { Content } = db;
+const { Actor } = db;
+
 
 const database = require('./data/Database.js');
-
+const ActorDatabase = require('./data/ActorDatabase.js');
 
 
 // this lets us parse 'application/json' content in http requests
@@ -51,6 +53,21 @@ db.sequelize.sync({ force: true }).then(async( ) =>  {
     });
   })
 });
+
+
+db.sequelize.sync().then(async( ) =>{
+  console.log(ActorDatabase);
+  ActorDatabase.forEach(async(e) => {
+    await Actor.create({
+      name: e.name,
+      japanese: e.japanese,
+      DOB: e.DOB,
+      height: e.height,
+      headshot: e.headshot
+     });
+   })
+});
+
 
 
 // start up the server

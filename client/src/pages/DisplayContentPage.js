@@ -35,16 +35,28 @@ function DisplayContentPage(props) {
             <br />
             <div className='KeepText'>
               <p className='displayTitle'> {data.title}</p>
-              <p className='displayText'><b>Type:</b> &nbsp; {data.media.charAt(0).toUpperCase() + data.media.slice(1)}</p>
-              <p className='displayText'><b>Genre:</b> &nbsp; {data.genre.split(" ").join(", ")}</p>
-              <p className='displayText'><b>Cast:</b> &nbsp; {data.cast.split("!").map(obj => {
-                return <div className='displayActorNames'>
-                  <a className="actorLink" href='/actors'> {obj} </a>,&nbsp;
-                </div>
+              <p className='displayText'><b>Type:</b> {data.media.charAt(0).toUpperCase() + data.media.slice(1)}</p>
+              <p className='displayText'><b>Genre:</b> {data.genre.split(" ").join(", ")}</p>
+              <p className='displayText'><b>Cast:</b> {data.cast.split("!").map((obj, i = 0) => {
+                if (i === data.cast.split("!").length - 1) {
+                  return <div className='displayActorNames'>
+                    <a className="actorLink" href='/actors'> {obj} </a>
+                  </div>
+                } else {
+                  i++;
+                  return <div className='displayActorNames'>
+                    <a className="actorLink" href='/actors'> {obj} </a>,&nbsp;
+                  </div>
+                }
+
               })}  </p>
               <br />
               <p className='displayText'><b>Description:</b></p>
-              <p className='displayDescrip'> {data.description} </p>
+              <p className='displayDescrip'> {data.description.split("!!!").map(obj => {
+                return <div>
+                  {obj}<br />
+                </div>
+              })} </p>
             </div>
 
           </div>

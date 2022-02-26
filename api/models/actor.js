@@ -3,38 +3,35 @@ const { Model } = require('sequelize');
 
 
 module.exports = (sequelize, DataTypes) => {
-  class Content extends Model { }
+  class Actor extends Model { }
 
-  Content.init({
-    title: {
+  Actor.init({
+    name: {
       type: DataTypes.STRING
     },
-    genre: {
+    japanese: {
       type: DataTypes.STRING
     },
-    photo: {
+    DOB: {
       type: DataTypes.STRING
     },
-    cast: {
+    height: {
       type: DataTypes.STRING
     },
-    media: {
+    headshot: {
       type: DataTypes.STRING
-    },
-    description: {
-      type: DataTypes.TEXT
     }
   }, {
     sequelize,
-    modelName: 'content'
+    modelName: 'actor'
   });
 
-  Content.associate = (models) => {
+  Actor.associate = (models) => {
     // associations can be defined here
-    
-    models.Content.belongsToMany(models.Actor, {through:'CastandContent'});
+
+    models.Actor.belongsToMany(models.Content, {through:'CastandContent'});
 
   };
 
-  return Content;
+  return Actor;
 };

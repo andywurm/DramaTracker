@@ -27,6 +27,7 @@ import './MyListStyle.css';
 import './LoginStyle.css';
 import './SignUpStyle.css';
 import './DisplayStyle.css';
+import './ActorStyle.css';
 
 function Navigation(props) {
   return (

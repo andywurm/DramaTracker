@@ -11,7 +11,7 @@ function PlanPage(props) {
           <a class="nav-link ListTabs" href="watching">Watching</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active ListTabs" aria-current="page">Plan to Watch</a>
+          <a class="nav-link active ListTabs" href="/plan" aria-current="page">Plan to Watch</a>
         </li>
       </ul>
 

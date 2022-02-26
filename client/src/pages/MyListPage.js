@@ -6,7 +6,7 @@ function MyListPage(props) {
     <div>
       <ul class="nav nav-tabs">
         <li class="nav-item">
-          <a class="nav-link active ListTabs" aria-current="page">Completed</a>
+          <a class="nav-link active ListTabs" href='/mylist' aria-current="page">Completed</a>
         </li>
         <li class="nav-item">
           <a class="nav-link ListTabs" href='/watching'>Watching</a>
