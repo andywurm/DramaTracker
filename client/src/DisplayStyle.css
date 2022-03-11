@@ -49,3 +49,11 @@
 .actorLink:hover{
     color: rgb(208, 42, 42);
 }
+
+.searchP{
+    text-align: left;
+}
+
+.actorCards{
+    border-left: solid red 1px;
+}

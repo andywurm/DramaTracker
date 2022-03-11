@@ -15,9 +15,6 @@ module.exports = (sequelize, DataTypes) => {
     photo: {
       type: DataTypes.STRING
     },
-    cast: {
-      type: DataTypes.STRING
-    },
     media: {
       type: DataTypes.STRING
     },

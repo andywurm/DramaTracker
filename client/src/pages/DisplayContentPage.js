@@ -1,12 +1,13 @@
 import React from 'react';
+import {useHistory} from 'react-router-dom';
 
 
 function DisplayContentPage(props) {
 
   console.log(props.location.state);
-
   const data = props.location.state;
 
+  const history = useHistory();
 
   return (
     <div>
@@ -28,7 +29,6 @@ function DisplayContentPage(props) {
                 <option value="PlanToWatch">Plan to Watch</option>
               </select>
             </div>
-
           </div>
 
           <div className='col-sm contentInfo'>
@@ -37,22 +37,28 @@ function DisplayContentPage(props) {
               <p className='displayTitle'> {data.title}</p>
               <p className='displayText'><b>Type:</b> {data.media.charAt(0).toUpperCase() + data.media.slice(1)}</p>
               <p className='displayText'><b>Genre:</b> {data.genre.split(" ").join(", ")}</p>
-              <p className='displayText'><b>Cast:</b> {data.cast.split("!").map((obj, i = 0) => {
-                if (i === data.cast.split("!").length - 1) {
-                  return <div className='displayActorNames'>
-                    <a className="actorLink" href='/actors'> {obj} </a>
+              <p className='displayText'><b>Cast:</b> {data.actors.map((obj, i = 0) => {
+                if (i === data.actors.length - 1) {
+                  return <div className='displayActorNames' onClick={() => 
+                    {
+                      history.push('/actors', { ...obj });
+                    }}>
+                    <a className="actorLink" href='/actors'> {obj.name} </a>
                   </div>
                 } else {
                   i++;
-                  return <div className='displayActorNames'>
-                    <a className="actorLink" href='/actors'> {obj} </a>,&nbsp;
+                  return <div className='displayActorNames' onClick={() => 
+                    {
+                      history.push('/actors', { ...obj });
+                    }}>
+                    <a className="actorLink" href='/actors'>{obj.name}</a>,&nbsp;
                   </div>
                 }
 
               })}  </p>
               <br />
               <p className='displayText'><b>Description:</b></p>
-              <p className='displayDescrip'> {data.description.split("!!!").map(obj => {
+              <p className='displayDescrip'> {data.description.split("\n").map(obj => {
                 return <div>
                   {obj}<br />
                 </div>

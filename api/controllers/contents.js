@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const db = require('../models');
-const { Content } = db;
+const { Content, Actor } = db;
 
 // This is a simple example for providing basic CRUD routes for
 // a resource/model. It provides the following:
@@ -16,26 +16,39 @@ const { Content } = db;
 // TODO: Can you spot where we have some duplication below?
 
 
-router.get('/', (req,res) => {
-  Content.findAll({})
+router.get('/', (req, res) => {
+  Content.findAll({
+    include: {
+      model: Actor,
+      attributes: ['name'],
+    },
+  })
     .then(contents => res.json(contents));
 });
 
-router.get('/shows',(req,res) => {
-    Content.findAll({
-        where: {
-            media:'show'
-        }
-    })
+router.get('/shows', (req, res) => {
+  Content.findAll({
+    include: {
+      model: Actor,
+      attributes: ['name'],
+    },
+    where: {
+      media: 'show'
+    }
+  })
     .then(shows => res.json(shows));
 })
 
-router.get('/movies',(req,res) => {
-    Content.findAll({
-        where: {
-            media:'movie'
-        }
-    })
+router.get('/movies', (req, res) => {
+  Content.findAll({
+    include: {
+      model: Actor,
+      attributes: ['name'],
+    },
+    where: {
+      media: 'movie'
+    }
+  })
     .then(movies => res.json(movies));
 })
 
@@ -43,7 +56,7 @@ router.get('/:id', (req, res) => {
   const { id } = req.params;
   Content.findByPk(id)
     .then(content => {
-      if(!content) {
+      if (!content) {
         return res.sendStatus(404);
       }
 

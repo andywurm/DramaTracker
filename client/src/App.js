@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -17,6 +19,7 @@ import WatchingPage from './pages/WatchingPage';
 import PlanPage from './pages/PlanPage';
 import DisplayContentPage from './pages/DisplayContentPage';
 import ActorsPage from './pages/ActorsPage';
+import SearchedPage from './pages/SearchedPage';
 
 import search from '../src/images/search.png';
 import logo from '../src/images/logo.png';
@@ -29,11 +32,17 @@ import './SignUpStyle.css';
 import './DisplayStyle.css';
 import './ActorStyle.css';
 
+
 function Navigation(props) {
+
+  const history2 = useHistory();
+  const [searched, setSearched] = useState("");
+
+
   return (
 
     <nav className="navbar navbar-expand-sm shadow-sm mb-4 navbar-dark bg-primary">
-      <Link className="navbar-brand"  exact to="/"> <img className='logo' src={logo} alt='<'></img>  Drama Tracker</Link>
+      <Link className="navbar-brand" exact to="/"> <img className='logo' src={logo} alt='<'></img>  Drama Tracker</Link>
       <ul className="navbar-nav mr-auto">
         <li className="nav-item">
           <NavLink className="nav-link" exact to="/shows">
@@ -53,14 +62,21 @@ function Navigation(props) {
       </ul>
 
       <div className='input-group'>
-        <input className="form-control rounded inputbar" type="text" placeholder="Search"></input>
-      <button className='input-group-addon'> <img className='searchPls' src={search} alt='s'></img></button>
+        <input className="form-control rounded inputbar" type="text" placeholder="Search"
+          onChange={(e) => setSearched(e.target.value)}/> {console.log(searched)}
+
+        <button className='input-group-addon' 
+        onClick={() => {
+          history2.push('/search', {searched});
+        } }>
+
+          <img className='searchPls' src={search} alt='s'></img></button>
       </div>
-    
+
       <ul className="navbar-nav">
-      <li className="nav-item login">
+        <li className="nav-item login">
           <NavLink className="nav-link" exact to="/login">
-          &nbsp; Login
+            &nbsp; Login
           </NavLink>
         </li>
       </ul>
@@ -87,6 +103,7 @@ class App extends React.Component {
               <Route path="/plan" component={PlanPage} />
               <Route path="/content" component={DisplayContentPage} />
               <Route path="/actors" component={ActorsPage} />
+              <Route path="/search" component={SearchedPage} />
             </Switch>
           </div>
         </div>
