@@ -1,9 +1,51 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 import logo from '../images/logo2.png';
 
 function LoginPage(props) {
+
+  const [uName, setUName] = useState("");
+  const [password, setPassword] = useState("");
+
+  const history = useHistory();
+
+  async function Login() {
+    const response = await fetch('/api/users/log', {
+      method: "POST",
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        username: uName,
+        password: password
+      })
+    }
+    ,
+    {withCredentials: true}
+   
+    );
+
+    const body = await response.json();
+    console.log(body);
+
+    console.log(response);
+
+    if (response.status === 200) {
+      props.setUser(body.value);
+      history.push('/');
+    } else {
+      alert("Login was unsuccessful. Please try again.");
+    }
+    console.log(response);
+
+
+  }
+
+
+
   return (
     <div>
+
 
       <div className='rectLog shadow'>
         <br />
@@ -16,11 +58,11 @@ function LoginPage(props) {
 
             <h2 className="LoginPageh2">Login</h2>
             <div className='ActualLoginHere'>
-              <div className="LoginField"> <input className="changeInput rounded profileInput" type="text" placeholder='  Username' ></input> </div>
-              <div className="LoginField"> <input className="changeInput rounded profileInput" type="password" placeholder='  Password' ></input> </div>
+              <div className="LoginField"> <input className="changeInput rounded profileInput" type="text" value={uName} placeholder='  Username' onChange={(e) => setUName(e.target.value)}></input> </div>
+              <div className="LoginField"> <input className="changeInput rounded profileInput" type="password" value={password} placeholder='  Password' onChange={(e) => setPassword(e.target.value)}></input> </div>
 
               <br />
-              <button type="button" class="btn btn-primary">Login</button>
+              <button type="button" class="btn btn-primary" onClick={Login}>Login</button>
 
               <p className="DontHaveAccount">Don't have an account? <a className='SignUpLink' href="/signup">Sign up here!</a> </p>
             </div>

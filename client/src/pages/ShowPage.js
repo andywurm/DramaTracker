@@ -28,7 +28,7 @@ function ShowPage(props) {
 
       <div className='row'>
         <div className='col-md browse'>
-          <div className='PageTop'>Browse All</div>
+          <div className='PageTop'>Browse Shows</div>
         </div>
         <div className='col-md '>
           <div className='PageTop'> </div>
@@ -38,7 +38,7 @@ function ShowPage(props) {
         </div>
       </div>
 
-      <div className='row'>
+      {/* <div className='row'>
         <div className='col-md browse'>
           <div className='PageTitle'> Shows </div>
         </div>
@@ -48,7 +48,7 @@ function ShowPage(props) {
         <div className='col-md cat'>
         
         </div>
-      </div>
+      </div> */}
 
       <br />
 

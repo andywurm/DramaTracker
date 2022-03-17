@@ -25,7 +25,7 @@ function HomePage(props) {
 
   }, [])
 
-  
+
 
   return (
 
@@ -44,7 +44,7 @@ function HomePage(props) {
         </div>
       </div>
 
-      <div className='row'>
+      {/* <div className='row'>
         <div className='col-md browse'>
           <div className='PageTitle'> Popular </div>
         </div>
@@ -54,7 +54,7 @@ function HomePage(props) {
         <div className='col-md cat'>
           <div className='category'> </div>
         </div>
-      </div>
+      </div> */}
 
       <br />
       <div className='ActualContainer'>

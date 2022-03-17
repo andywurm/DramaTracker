@@ -24,8 +24,18 @@ function SearchedPage(props) {
     getData();
 
   }, []);
+  
+    console.log(contents.map(contents => contents.actors));
 
-
+    var reversed = data.searched.split(" ");
+    reversed.reverse();
+    reversed = reversed.join("").toLowerCase();
+    console.log(reversed);
+   
+    function handleSearch(queries){
+        const lower = queries.toLowerCase();
+       return contents.filter((content) => content.title.toLowerCase().includes(lower) || content.actors.map((e) => e.name).join(" ").toLowerCase().includes(lower));
+    }
 
     return (
         
@@ -41,9 +51,8 @@ function SearchedPage(props) {
 
             <div className='ActualContainer'>
 
-                <DisplayCards list={contents.filter((content) => content.title.toLowerCase() === data.searched.toLowerCase())} />
-                <DisplayCards list={contents.filter((content) => content.actors.filter((actor) => actor.name.toLowerCase() === data.searched.toLowerCase()).length)} />
-
+                <DisplayCards list={handleSearch(data.searched)} />
+                
                 <br />
 
             </div>

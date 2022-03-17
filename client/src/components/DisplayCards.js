@@ -18,8 +18,8 @@ function DisplayCards({ list }) {
 
         <div class="card shadow">
           <img className='imageCheck' src={`../img/${obj.photo}`} alt={obj.title}></img>
-          <div class="card-body">
-            <p class="card-text">{obj.title} </p>
+          <div className="card-body">
+            <p className="card-text">{obj.title} </p>
           </div>
         </div>
       </div>

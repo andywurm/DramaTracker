@@ -38,13 +38,10 @@ function ActorsPage(props) {
   }, [])
 
 
-  // console.log(actor.filter((e) => e.id === actorID));
-
   const act = actor.filter((e) => e.id === actorID);
   const pic = act.map(e => {
     return e.headshot
   });
-  
 
 
   return (

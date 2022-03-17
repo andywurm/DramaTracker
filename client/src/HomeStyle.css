@@ -34,7 +34,7 @@
 }
 .card-deck{
     position: relative;
-    right: 15px;
+    left: 3px;
 }
 .card-text{
     max-height: 50px;
@@ -72,6 +72,11 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
     grid-gap: .5rem;
+}
+
+.cat{
+    position: relative;
+    top: 4px;
 }
 
 .row{

@@ -27,7 +27,7 @@ function MoviePage(props) {
 
       <div className='row'>
         <div className='col-md browse'>
-          <div className='PageTop'>Browse All</div>
+          <div className='PageTop'>Browse Movies</div>
         </div>
         <div className='col-md '>
           <div className='PageTop'> </div>
@@ -39,7 +39,7 @@ function MoviePage(props) {
         </div>
       </div>
 
-      <div className='row'>
+      {/* <div className='row'>
         <div className='col-md browse'>
           <div className='PageTitle'> Movies </div>
         </div>
@@ -49,7 +49,7 @@ function MoviePage(props) {
         <div className='col-md cat'>
           <div className='category'> </div>
         </div>
-      </div>
+      </div> */}
 
       <br />
 

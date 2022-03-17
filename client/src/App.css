@@ -49,3 +49,28 @@
   top: -2px;
 }
 
+.userNameDisplay{
+  color: rgba(255,255,255, 0.8);
+}
+
+.Logout{
+  color: rgba(255,255,255, 0.8);
+  border: none;
+}
+
+.Logout:hover{
+  background-color: rgb(249, 78, 78);
+}
+
+button:focus {
+  outline: 0;
+}
+
+.logoutWord{
+  font-size: 15px;
+  color: #cb0f0f;
+}
+
+.logoutWord:hover{
+  color: #ff5c5c;
+}

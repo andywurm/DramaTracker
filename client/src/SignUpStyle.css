@@ -3,9 +3,10 @@
     position: relative;
     top: 20px;
     height: 72vh;
-    width:65vw;
+    width:55vw;
     background-color: rgb(250, 250, 250);
     overflow:auto;
+    border-radius: 3px;
 }
 
 .SignUpField{

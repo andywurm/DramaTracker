@@ -5,6 +5,7 @@ const router = express.Router();
 // Load each controller
 const contentsController = require('./contents.js');
 const actorsController = require('./actors.js');
+const usersController = require('./users.js');
 const appConfigController = require('./appConfig.js');
 const { sequelize } = require('../models/index.js');
 
@@ -12,6 +13,7 @@ const { sequelize } = require('../models/index.js');
 // will be prefixes to all routes defined inside the controller
 router.use('/contents', contentsController);
 router.use('/actors', actorsController);
+router.use('/users', usersController);
 router.use('/application-configuration', appConfigController);
 
 

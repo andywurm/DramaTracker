@@ -6,11 +6,14 @@ const app = express();
 const PORT = process.env.PORT||5000;
 const { Content } = db;
 const { Actor } = db;
+const { User } = db;
 
 
 const database = require('./data/Database.js');
 const ActorDatabase = require('./data/ActorDatabase.js');
 const { forEach } = require('./data/Database.js');
+
+
 
 
 // this lets us parse 'application/json' content in http requests
@@ -75,6 +78,14 @@ db.sequelize.sync({ force: true }).then(async( ) =>  {
       await content.addActor(actor);
     });
     
+  })
+
+  await User.create({
+    firstName: 'hello',
+    lastName: 'bye',
+    email: 'hellow',
+    username: 'theUser',
+    password: 'hello'
   })
   
 });
