@@ -35,7 +35,9 @@ module.exports = (sequelize, DataTypes) => {
 
   User.associate = (models) => {
     // associations can be defined here
-    models.User.belongsToMany(models.Content, { through: 'TheirList' });
+    const User_Content = sequelize.define("User_Content", { listType: {type:DataTypes.STRING} });
+    models.User.belongsToMany(models.Content, { through: User_Content});
+    models.Content.belongsToMany(models.User, { through: User_Content});
 
   };
 

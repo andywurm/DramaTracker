@@ -80,13 +80,22 @@ db.sequelize.sync({ force: true }).then(async( ) =>  {
     
   })
 
-  await User.create({
+  const use = await User.create({
     firstName: 'hello',
     lastName: 'bye',
     email: 'hellow',
     username: 'theUser',
     password: 'hello'
   })
+
+  const show = await Content.findOne({
+    where: {
+      id: 7
+    }
+  })
+
+  const found = await use.addContent(show,{through: {listType: 'watched'}})
+  console.log(found);
   
 });
 

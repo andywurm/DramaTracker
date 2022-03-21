@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { useHistory } from 'react-router-dom';
 import PopDown from './components/PopDown.js';
 
@@ -16,8 +16,6 @@ import MoviePage from './pages/MoviePage';
 import MyListPage from './pages/MyListPage';
 import LoginPage from './pages/LoginPage';
 import SignUpPage from './pages/SignUpPage';
-import WatchingPage from './pages/WatchingPage';
-import PlanPage from './pages/PlanPage';
 import DisplayContentPage from './pages/DisplayContentPage';
 import ActorsPage from './pages/ActorsPage';
 import SearchedPage from './pages/SearchedPage';
@@ -32,10 +30,11 @@ import './LoginStyle.css';
 import './SignUpStyle.css';
 import './DisplayStyle.css';
 import './ActorStyle.css';
+import { UserContext, UserProvider } from './hooks/UserContext.js';
 
 function Navigation(props) {
 
-
+  const { user } = useContext(UserContext);
   const history2 = useHistory();
   const [searched, setSearched] = useState("");
 
@@ -60,11 +59,12 @@ function Navigation(props) {
             Movies
           </NavLink>
         </li>
-        <li className="nav-item">
+        {user && <li className="nav-item">
           <NavLink className="nav-link" exact to="/mylist">
             My List
           </NavLink>
-        </li>
+        </li>}
+
       </ul>
 
       <div className='input-group'>
@@ -80,7 +80,7 @@ function Navigation(props) {
           <img className='searchPls' src={search} alt='s'></img></button>
       </div>
 
-      {props.user ? <div className='userNameDisplay'>&nbsp;<PopDown username={props.user.username}/>&nbsp;</div> :
+      {user ? <div className='userNameDisplay'>&nbsp;<PopDown username={user.username} />&nbsp;</div> :
         <ul className="navbar-nav">
           <li className="nav-item login">
             <NavLink className="nav-link" exact to="/login">
@@ -95,33 +95,32 @@ function Navigation(props) {
 
 function App() {
 
-  const [user, setUser] = useState();
 
   useEffect(() => {
     document.title = "Drama Tracker"
- }, []);
+  }, []);
 
   return (
-    <Router>
-      <Navigation user={user} />
-      <div className="container-fluid text-center">
-        <div className="row justify-content-center">
-          <Switch>
-            <Route exact path="/" component={HomePage} />
-            <Route path="/shows" component={ShowPage} />
-            <Route path="/movies" component={MoviePage} />
-            <Route path="/mylist" component={MyListPage} />
-            <Route path="/login" render={(props) => <LoginPage setUser={setUser} />} />
-            <Route path="/signup" component={SignUpPage} />
-            <Route path="/watching" component={WatchingPage} />
-            <Route path="/plan" component={PlanPage} />
-            <Route path="/content" component={DisplayContentPage} />
-            <Route path="/actors" component={ActorsPage} />
-            <Route path="/search" component={SearchedPage} />
-          </Switch>
+    <UserProvider>
+      <Router>
+        <Navigation />
+        <div className="container-fluid text-center">
+          <div className="row justify-content-center">
+            <Switch>
+              <Route exact path="/" render={(props) => <HomePage />} />
+              <Route path="/shows" render={(props) => <ShowPage />} />
+              <Route path="/movies" render={(props) => <MoviePage />} />
+              <Route path="/mylist" render={(props) => <MyListPage />} />
+              <Route path="/login" render={(props) => <LoginPage />} />
+              <Route path="/signup" component={SignUpPage} />
+              <Route path="/content" component={DisplayContentPage} />
+              <Route path="/actors" component={ActorsPage} />
+              <Route path="/search" component={SearchedPage} />
+            </Switch>
+          </div>
         </div>
-      </div>
-    </Router>
+      </Router>
+    </UserProvider>
   );
 }
 

@@ -1,12 +1,13 @@
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useContext } from 'react';
 import DisplayCards from '../components/DisplayCards.js';
 import Dropdown from '../components/Dropdown.js';
+import { UserContext } from '../hooks/UserContext';
 
 
 function HomePage(props) {
 
-
+  const {user} = useContext(UserContext);
   const [genre, setGenre] = useState();
   const [contents, setContents] = useState([]);
 
@@ -44,22 +45,11 @@ function HomePage(props) {
         </div>
       </div>
 
-      {/* <div className='row'>
-        <div className='col-md browse'>
-          <div className='PageTitle'> Popular </div>
-        </div>
-        <div className='col-md '>
-          <div className='PageTop'> </div>
-        </div>
-        <div className='col-md cat'>
-          <div className='category'> </div>
-        </div>
-      </div> */}
 
       <br />
       <div className='ActualContainer'>
 
-        <DisplayCards list={contents.filter((e) => !genre || e.genre.includes(genre))} />
+        <DisplayCards list={contents.filter((e) => !genre || e.genre.includes(genre))} user = {user} />
 
         <br />
 

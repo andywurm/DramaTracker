@@ -1,13 +1,39 @@
-import React from 'react';
-import {useHistory} from 'react-router-dom';
-
+import React, {useContext} from 'react';
+import { useHistory } from 'react-router-dom';
+import { UserContext } from '../hooks/UserContext';
 
 function DisplayContentPage(props) {
 
-  console.log(props.location.state);
-  const data = props.location.state;
+  const {user} = useContext(UserContext);
+
+  console.log(props.location.state.show);
+  const data = props.location.state.show;
 
   const history = useHistory();
+
+  async function selectList(e) {
+    const value = e.target.value;
+
+    if (user && value !== "") {
+      const response = await fetch('/api/users/add', {
+        method: "POST",
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          userId: user.id,
+          contentId: data.id,
+          listType: value
+        })
+      }
+
+      )
+      console.log(response);
+    }
+
+
+  }
+
 
   return (
     <div>
@@ -22,7 +48,7 @@ function DisplayContentPage(props) {
             <div className="moveImage">
               <img className="imageSizer shadow" src={`../img/${data.photo}`} alt='<' />
               <br />
-              <select className="form-select" aria-label="Default select example" >
+              <select className="form-select" aria-label="Default select example" onChange={selectList} >
                 <option selected value="">  &#9776; Add to List </option>
                 <option value="Completed">Completed</option>
                 <option value="Watching">Watching</option>
@@ -39,19 +65,17 @@ function DisplayContentPage(props) {
               <p className='displayText'><b>Genre:</b> {data.genre.split(" ").join(", ")}</p>
               <p className='displayText'><b>Cast:</b> {data.actors.map((obj, i = 0) => {
                 if (i === data.actors.length - 1) {
-                  return <div className='displayActorNames' onClick={() => 
-                    {
-                      history.push('/actors', { ...obj });
-                    }}>
-                    <a className="actorLink" href='/actors'> {obj.name} </a>
+                  return <div className='displayActorNames' onClick={() => {
+                    history.push('/actors', { ...obj });
+                  }}>
+                    <button className="actorLink actorButton"> {obj.name} </button>
                   </div>
                 } else {
                   i++;
-                  return <div className='displayActorNames' onClick={() => 
-                    {
-                      history.push('/actors', { ...obj });
-                    }}>
-                    <a className="actorLink" href='/actors'>{obj.name}</a>,&nbsp;
+                  return <div className='displayActorNames' onClick={() => {
+                    history.push('/actors', { ...obj });
+                  }}>
+                    <button className="actorLink actorButton">{obj.name}</button>,&nbsp;
                   </div>
                 }
 

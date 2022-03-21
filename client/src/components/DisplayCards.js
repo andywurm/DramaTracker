@@ -2,7 +2,7 @@ import React from 'react';
 import {useHistory} from 'react-router-dom';
 
 
-function DisplayCards({ list }) {
+function DisplayCards({ list}) {
 
   const history = useHistory();
 
@@ -12,7 +12,7 @@ function DisplayCards({ list }) {
         {list.map(obj => {
           return <div className='col-sm-3 displayContent' onClick={() => 
           {
-            history.push('/content', { ...obj });
+            history.push('/content', {show: obj});
           }
           }>
 

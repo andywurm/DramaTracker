@@ -1,7 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const db = require('../models');
-const { Content, User } = db;
+const { Content, User, Actor } = db;
+
 
 
 router.post('/sign', async (req, res) => {
@@ -22,17 +23,15 @@ router.post('/log', async (req, res) => {
             where: {
                 username: req.body.username,
                 password: req.body.password
-                
+
             }
         }
         );
 
-         
-
         console.log(user);
-        if(user !== null){
+        if (user !== null) {
             res.status(200).json({ value: user });
-        } else{
+        } else {
             res.status(400).json({ value: "Login error" });
         }
 
@@ -40,9 +39,56 @@ router.post('/log', async (req, res) => {
         res.status(400).json({ value: "Login error" });
     }
 
-    
+
 });
 
+router.get('/list', async (req, res) => {
 
+    const user = await User.findOne({
+        where: {
+            username: req.query.username
+        }
+    })
+
+    const findWatched = await Content.findAll({
+        include: [{
+            model: User,
+            attributes: ['id'],
+            where: {
+                id: user.id
+            },
+
+        },
+         {
+            model: Actor,
+            attributes: ['name'],
+          }]
+
+    })
+
+    res.status(200).json({ value: findWatched });
+
+});
+
+router.post('/add', async (req, res) => {
+
+    const user = await User.findOne({
+        where: {
+            id: req.body.userId
+        }
+    })
+
+    const content = await Content.findOne({
+        where:{
+            id: req.body.contentId
+        }
+    })
+
+    const found = await user.addContent(content,{through: {listType: req.body.listType}})
+
+    res.status(200).json({ value: found});
+    
+
+});
 
 module.exports = router;

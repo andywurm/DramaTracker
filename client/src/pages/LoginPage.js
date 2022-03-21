@@ -1,9 +1,11 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { useHistory } from 'react-router-dom';
+import { UserContext } from '../hooks/UserContext';
 import logo from '../images/logo2.png';
 
 function LoginPage(props) {
 
+  const {setUser} = useContext(UserContext);
   const [uName, setUName] = useState("");
   const [password, setPassword] = useState("");
 
@@ -31,7 +33,7 @@ function LoginPage(props) {
     console.log(response);
 
     if (response.status === 200) {
-      props.setUser(body.value);
+      setUser(body.value);
       history.push('/');
     } else {
       alert("Login was unsuccessful. Please try again.");
@@ -45,7 +47,6 @@ function LoginPage(props) {
 
   return (
     <div>
-
 
       <div className='rectLog shadow'>
         <br />

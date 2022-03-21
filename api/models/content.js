@@ -31,6 +31,7 @@ module.exports = (sequelize, DataTypes) => {
     
     models.Content.belongsToMany(models.Actor, {through:'CastandContent'});
 
+
   };
 
   return Content;

@@ -5,6 +5,7 @@
 }
 .ListTabs{
     color: #a70505;
+    background: none;
 }
 .ListTabs:hover{
     color:#ff3535;

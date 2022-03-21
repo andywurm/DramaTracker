@@ -63,8 +63,6 @@ function SignUpPage(props) {
             <br />
             <button type="button" class="btn btn-primary" onClick={signUp} >Sign Up</button>
 
-            {/* <div> Status: {result} </div> */}
-
           </div>
 
         </div>
