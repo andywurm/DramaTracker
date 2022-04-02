@@ -1,0 +1,39 @@
+.displayUserBack{
+    border: 1px rgb(155, 155, 155) solid;
+    background-color: rgb(250, 250, 250);
+    padding: 10px;
+    margin-top: 50px;
+    width: 80vw;
+    height: 60vh;
+    overflow: hidden;
+}
+
+.infoSpace{
+    border-left: solid gray 1px;
+    position: relative;
+    top: 50px;
+}
+
+.nameSpace{
+    /* border: solid red 1px; */
+}
+
+.editInfo{
+   text-align: center;
+   padding: 20px, 2px;
+   border-radius: 5px;
+   background-color: #cb0f0f;
+   border: 1px #7d1313 ;
+   color: white;
+}
+
+.labels{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 5%;
+    /* border: solid red; */
+}
+
+.inputs{
+    width: 50%;
+}

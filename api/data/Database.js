@@ -179,5 +179,437 @@ module.exports = [
         type: 'show',
         description: 'Hiroto Miyama is a poor lawyer who takes on criminal cases, but is unsuccessful. He pursues the truth for the 0.1% out of Japans 99.9% conviction rate. One day, Hiroto is scouted by Haruhiko Madarame, the head of Madarame Law Firm which is one of the biggest law firms. Hiroto begins to work for him.'
     }
+    ,
+    {
+        title: '14-sai no haha',
+        genre: ['Life', 'School', 'Family'],
+        photo: '14SaiNoHahaPoster.jpg',
+        cast: ['Shida Mirai', 'Miura Haruma'],
+        type:  'show',
+        description: 'Miki Ichinose is a 14-year-old schoolgirl who is very outgoing and cheerful. She lives with her parents and younger brother. She is in a romantic relationship with Satoshi Kirino who is 15 years old. They keep their relationship a secret from their parents because Miki is young and Satoshi is expected to excel in school and get into a university so he can take over the family business by his overbearing mother. One night, after a date, they sneak into a treehouse and consummate their relationship. \n Soon after, Miki suspects that she is pregnant and steals a pregnancy test, which her mother later finds. She is taken to a doctor who confirms her pregnancy. Mikis parents are very upset and the doctor tells them that it will be too dangerous for Miki to carry a baby due to her small size.'
+        }
+        ,
+        {
+            title: 'Wilderness',
+            genre: ['Life', 'Action'],
+            photo: 'AhWildernessPoster.jpg',
+            cast: ['Suda Masaki','Yamada Yuki'],
+            type:'movie',
+            description:'Two men meet by chance when they decide to join a rundown boxing gym run by half-blind trainer Horiguchi. One of the men is ex-convict Shinji, whose fathers suicide death impacts his mental health and outward aggressiveness, has just been released from a juvenile detention centre and is out to take revenge on Yuji Yamamoto who betrayed him and has since become a boxer. The other man is Kenji , a mild-mannered half-Korean-half-Japanese barber, is extremely shy and stutters due to a traumatic past with his abusive father. The two form an unlikely friendship as they journey their way to become professional boxers and a way back into an unforgiving society.'
+        }
+        ,
+        {
+            title: 'Alice in Borderland',
+            genre: ['Action', 'Mystery'],
+            photo: 'AliceInBorderlandPoster.jpg',
+            cast: ['Yamazaki Kento', 'Tsuchiya Tao', 'Machida Keita'],
+            type: 'show',
+            description: 'Ryohei Arisu is an unemployed man, who has not had the best luck in life. One day when hanging out with his friends, a mysterious light appears and everybody disappears except for Arisu and his two friends. Tokyo is completely empty. Ryohei Arisu and his two friends are forced to take part in a survival game where if they fail they must pay with their lives. There, Ryohei Arisu meets a girl named Yuzuha Usagi.'
+        }
+        ,
+        {
+            title: 'If I Kissed Her',
+            genre: ['Romance', 'Comedy'],
+            photo: 'AnoTokiPoster.jpg',
+            cast: ['Matsuzaka Tori', 'Aso Kumiko', 'Iura Arata'],
+            type: 'show',
+            description: 'Nozomu Momochi works at supermarket. He enjoys reading a manga called Seika no Sora. One day he has an encounter with the author of that manga and finds out they are completely different from what he imagined. After running into each other a couple more times the two end up going on a trip to Okinawa that leads to an interesting tragedy.'
+        }
+        ,
+        {
+            title:'Character',
+            genre: ['Crime', 'Mystery'],
+            photo: 'CharacterPoster.jpg',
+            cast: ['Suda Masaki', 'Oguri Shun'],
+            type: 'movie',
+            description:'Keigo Yamashiro aspires to be a manga artist. One day while out looking for inspiration he happens to see a murder. After being questioned by the police he does not reveal that he actually saw the murderers face. Instead, he uses the murderers likeness as his new and interesting main character. He writes about the murder he witnessed and other murders using the unknown mans image. Suddenly, events from Yamashiros manga begin to happen in real life.'
+        }
+        ,
+        {
+            title: 'Confessions',
+            genre: ['Crime', 'School','Mystery','Life'],
+            photo:'ConfessionsPoster.jpg',
+            cast: ['Matsu Takako','Niishi Yukito'],
+            type: 'movie',
+            description: 'Junior high school teacher Yuko Moriguchi announces to her rowdy, disrespectful class that she will resign before spring break. She explains that because the HIV positive father of her four-year-old daughter Manami was ill, she used to bring the girl to school with her. One day, Manami was found drowned in the school swimming pool. She explains that two students in her class, whom she dubs "Student A" and "Student B", had murdered her daughter.'
+        }
+        ,
+        {
+            title: 'Gokusen',
+            genre: ['School','Comedy'],
+            photo:'GokusenPoster.jpg',
+            cast: ['Nakama Yukie','Miura Haruma', 'Matsumoto Jun', 'Oguri Shun'],
+            type: 'show',
+            description: 'Kumiko Yamaguchi is the granddaughter of a yakuza boss, Kuroda of the Kuroda Ikka. Her parents died when she was at the age of seven, and her grandfather had no other descendants, so Kumiko is next in line to head the family business. However, her lifelong dream has been to become a teacher. Kumiko becomes home teacher of class 4-2 in mathematics at an all-boys private high school. Her class is full of delinquents, but she tries her hardest to teach them not just academically, but about lessons of life.'
+        }
+        ,
+        {
+            title: 'Gokushufudo',
+            genre: ['School'],
+            photo:'GokushufudoPoster.jpg',
+            cast: ['Tamaki Hiroshi','Kawaguchi Haruna'],
+            type: 'show',
+            description: 'Tatsu is a 38 years old house husband. Before getting married he was a legendary yakuza member known as "Immortal Dragon". He quit the yakuza because of his marriage to his wife Miku. Since then Tatsu has become obsessed with doing housework.'
+        }
+        ,
+        {
+            title: 'Good Doctor',
+            genre: ['Medical', 'Life'],
+            photo:'GoodDoctorPoster.jpg',
+            cast: ['Yamazaki Kento','Fujiki Naohito', 'Ueno Juri'],
+            type: 'show',
+            description: 'Minato Shindo is autistic with savant syndrome. He has an amazing memory and good spacial skills, but finds it difficult to communicate with others. Minato aspires to become a doctor because his older brother died when they were younger. He later meets doctor Akira Shiga and amazes him with his ability to remember all the human organs at a young age. Doctor Akira decides to support Minato and with his recommendation, Minato eventually enters the world of pediatric surgery as a resident.'
+        }
+        ,
+        {
+            title: 'GrassHopper',
+            genre: ['Crime', 'Mystery'],
+            photo:'GrasshopperPoster.jpg',
+            cast: ['Ikuta Toma','Yamada Ryosuke', 'Nanao'],
+            type: 'movie',
+            description: 'After the death of his girlfriend, Suzuki takes on a job working for the underground. Suzuki is quickly caught up in a cat and mouse game between two groups of underground workers. Caught up in the game, alongside him, are Kujira and Semi who are both deadly killers.'
+        }
+        ,
+        {
+            title: 'Jimi ni Sugoi',
+            genre: ['Romance', 'Comedy'],
+            photo:'JimiNiSugoiPoster.jpg',
+            cast: ['Ishihara Satomi','Suda Masaki', 'Honda Tsubasa'],
+            type: 'show',
+            description: 'Kouno Etsuko joins a publishing company with her sights set on becoming a fashion editor. But she is assigned to the very unglamorous proofreading department which examines and fixes errors in manuscripts. Dressed in flashy clothes, Etsuko goes beyond her proofreading work to see the writers in person and also get into actual locations to verify facts. She tries to do each job to perfection for a transfer to the fashion magazine editorial department. Despite her worries about the gap between her ideal job and reality, Etsuko dedicates herself to the work of proofreading in her own unique way and gradually starts to realize its allure.'
+        }
+        ,
+        {
+            title: 'Greatest Gift of Life',
+            genre: ['Life', 'Family'],
+            photo:'JinseiSaikouNoOkurimonoPoster.jpg',
+            cast: ['Ishihara Satomi'],
+            type: 'show',
+            description: 'Ryosuke lives in a small house in Tokyo. Since his wife died, he has adjusted to living alone. Ryosuke has one child, Yuriko. She is married to Shigeyuki, who works as a teacher. Yuriko and Shigeyuki live in Nagano. One day, Yuriko visits her father Ryosuke without notice. Ryosuke is surprised by her sudden visit. Yuriko doesnt give any reason for the visit. Ryosuke only learns that Yuriko isnt sure how long she will stay. They havent talked as father and daughter in a long time. They begin to live together.'
+        }
+        ,
+        {
+            title: 'Kaiji: Final Game',
+            genre: ['Action'],
+            photo:'KaijiPoster.jpg',
+            cast: ['Fukushi Sota', 'Fujiwara Tatsuya', 'Mackenyu', 'Yoshida Kotaro'],
+            type: 'movie',
+            description: '‘Kaiji experiences the biggest adventure of his life. He encounters four different games built to test his skills.'
+        }
+        ,
+        {
+            title: 'Kekkon Dekinai Otoko',
+            genre: ['Life', 'Comedy'],
+            photo:'KekkonDekinaiOtokoPoster.jpg',
+            cast: ['Abe Hiroshi'],
+            type: 'show',
+            description: 'A middle-aged architect lives by himself and lacks the social skills to communicate with others. However, he has three female friends, a business partner, a neighbor, and his doctor, and explores romantic possibilities with them.'
+        }
+        ,
+        {
+            title: 'Kingdom',
+            genre: ['Action'],
+            photo:'KingdomPoster.jpg',
+            cast: ['Yamazaki Kento', 'Hashimoto Kanna', 'Yoshizawa Ryo'],
+            type: 'movie',
+            description: 'Orphaned by war, Xin is sold as a slave to a small village, where he befriends Piao, another slave. Growing up, Xin and Piao train together, dreaming of escaping their low statuses and eventually becoming great generals. \n One day, Chang Wen Jun visits their village in search of soldiers to aid the king Ying Zheng but he will only accept Piao. A few days later, a mortally wounded Piao appears at Xins house, warning him that Ying Zhengs brother, Cheng Jiao, has started a power struggle and urging him to go to a meet-up point marked on a map he gives him. Xin is forced to flee as his village is set on fire and the villagers are murdered by Cheng Jiaos army.'
+        }
+        ,
+        {
+            title: 'Kiwadoi Futari',
+            genre: ['Action', 'Crime', 'Comedy'],
+            photo:'KiwadoiFutariPoster.jpg',
+            cast: ['Tanaka Kei', 'Yamada Ryosuke'],
+            type: 'show',
+            description: 'Ryuichi Kanzaki is a detective. He is assigned to work in the criminal investigation division at the Ikebukuro Police Station. During his first day of work there, he is unable to find his assigned partner, veteran detective Kenji Kuroki. His partner, actually took leave from the station without giving them notice. The chief of the criminal investigation division orders Ryuichi Kanzaki to find Kenji Kuroki. There is also secret between Ryuichi Kanzaki and Kenji Kuroki. They are actually step brothers.'
+        }
+        ,
+        {
+            title: 'Love is Deep',
+            genre: ['Romance'],
+            photo:'KoiWaDeepNiPoster.jpg',
+            cast: ['Ayano Go', 'Ishihara Satomi', 'Imada Mio', 'Ohtani Ryohei'],
+            type: 'show',
+            description: 'A sea-loving oceanographer, Mio Nagisa who wants to protect the sea, meets a marine resort owners son,Rintaro Hasuda who is trying to develop the resort. The two people from different world ends up having a forbidden love.'
+        }
+        ,
+        {
+            title: 'Love Lasts Forever',
+            genre: ['Romance', 'Medical'],
+            photo:'KoiWaTsuzukuPoster.jpg',
+            cast: ['Kamishiraishi Mone', 'Sato Takeru'],
+            type: 'show',
+            description: 'Nanase Sakura is a 23-year-old rookie nurse. She met Doctor Kairi Tendo several years ago and fell in love with him. To meet him again, she studied hard and became a nurse. After 5 years, she finally meets Kairi Tendo again, but he has a totally different personality than what she imagined. Kairi Tendo, who is 31-years-old, is commonly referred to as the "Devil" at work. Nanase Sakura works hard to receive recognition from him and she also expresses her feelings honestly to him. Due to her persistence, Kairi Tendo becomes attracted to her.'
+        }
+        ,
+        {
+            title: 'Kounodori',
+            genre: ['Medical','Life'],
+            photo:'KounodoriPoster.jpg',
+            cast: ['Ayano Go', 'Matsuoka Mayu', 'Sakaguchi Kentaro', 'Oguri Shun'],
+            type: 'show',
+            description: 'Sakura Konotori  is a gynecologist and also a pianist . He is the leader of a ob-gyn team and respected by his peers.One day, he begins to play the piano at a club in Tokyo. 10 minutes later, he stops playing and takes a call from the hospital on whether to accept a pregnant woman. He rushes to the hospital. The pregnant woman has never had an examination and the hospital isnt even sure how many months she has been pregnant. Sakura decides to accept the pregnant woman even though there is high risk. He asks the Neonatology team for help. Takayuki Imahashi is the leader of the Neonatology team and he prepares for the woman to give birth.'
+        }
+        ,
+        {
+            title: 'The Kitazawas',
+            genre: ['Family','Comedy', 'Crime'],
+            photo:'MomikeshiteFuyuPoster.jpg',
+            cast: ['Yamada Ryosuke', 'Haru', 'Ozawa Yukiyoshi'],
+            type: 'show',
+            description: 'Taizo Kitazawa works as a middle school principal. He has three children. His first child, Hirofumi, is 38 years old and works as a heart surgeon. His second child, Chiaki, is 27 years old and works as a lawyer. The youngest child, Shusaku, is 25 years old and works as a police officer. In order to keep happiness in the Kitazawa family, the family uses any means they can. Shusaku comes into conflict between love for his family and professional ethics.'
+        }
+        ,
+        {
+            title: 'Liar Game',
+            genre: ['Mystery','Psychological'],
+            photo:'LiarGamePoster.jpg',
+            cast: ['Toda Erika', 'Kichise Michiko'],
+            type: 'show',
+            description: 'An ordinary college student, Nao Kanzaki is suddenly pulled into this crazy game where you compete how well you can lie. Shes too honest to win such game, but with the aide by a genius con artist, she survives each tournament. Over the course of the show the true motive behind the game becomes crystal clear.'
+        }
+        ,
+        {
+            title: 'My Boss My Hero',
+            genre: ['School','Comedy'],
+            photo:'MyBossMyHeroPoster.jpg',
+            cast: ['Nagase Tomoya', 'Aragaki Yui'],
+            type: 'show',
+            description: 'Sakaki Makio is a 27-year-old high school drop-out. By academic standards, hes pretty dumb. His father decides to force Makio to return to high school to receive his diploma, and he asks an old friend who happens to be the principal of a nearby school to admit Makio. If Makio doesnt graduate, the position of boss will be given to his younger brother, Mikio. He must pose as a 17-year-old during school hours and in the presence of any classmates or teachers outside of school.'
+        }
+        ,
+        {
+            title: 'My Lovers Secret',
+            genre: ['Romance','Mystery'],
+            photo:'MyLoversSecretPoster.jpg',
+            cast: ['Fukushi Sota', 'Kawaguchi Haruna', 'Kaku Kento'],
+            type: 'show',
+            description: 'When Rei Okumori was in the 3rd grade of middle school, he killed his father to protect his mother Akiko. His father physically abused his mother. They buried his dead body in their yard and made it appear he went missing. Since that time, they kept they their secret and did not tell anyone. \n Eight years later, Rei is now a law school student and pursuing his dream of becoming a lawyer. At his law school, he meets Sawa Tachibana who hopes to become a public prosecutor. They fall in love and Rei wants to marry Sawa. He begins to receive a message from someone that knows his secret.'
+        }
+        ,
+        {
+            title: 'We Married as a Job',
+            genre: ['Romance','Comedy','Life'],
+            photo:'NigeHajiPoster.jpg',
+            cast: ['Hoshino Gen', 'Aragaki Yui', 'Ohtani Ryohei'],
+            type: 'show',
+            description: '25-year-old Moriyama Mikuri graduated but had no job offers. She became a temporary employee but was even laid off. So while she is taking a break right now, Mikuri feels unwanted and displaced. She starts work as a housekeeper for bachelor Tsuzaki Hiramasa by chance. One day, he proposes a contract marriage to her. The two of them get married in secret, but will their married life work out?'
+        }
+        ,
+        {
+            title: 'Ningyo no Nemuru ie',
+            genre: ['Life'],
+            photo:'NingyoNONemuruIePoster.jpg',
+            cast: ['Shinohara Ryoko', 'Nishijima Hidetoshi'],
+            type: 'movie',
+            description: 'Kaoruko Harima has two children. She lives separately from her husband Kazuaki. They have agreed to divorce after their daughters exam for elementary school finishes. One day, they learn that their daughter drowned in a swimming pool. The doctor informs them that their daughter is brain dead and does not have a chance to recover. The couple has two choices. One choice is to donate Mizuhos organs to others in need and their other choice is to wait until Mizuhos heart stops beating.'
+        }
+        ,
+        {
+            title: 'Oshii Keiji',
+            genre: ['Comedy', 'Mystery', 'Crime'],
+            photo:'OshiiKeijiPoster.jpg',
+            cast: ['Kazama Shunsuke', 'Inuaki Atsuhiro', 'Sano Shiro'],
+            type: 'show',
+            description: 'Oshii Takashi is a detective with excellent reasoning power. Unfortunately, he usually misses the criminal in front of him and other detectives get recognition for the capture. He is transferred to the Utobashi Police Station. One day goes to a record company CEOs house. The CEOs third son was burned to death. The police are set to conclude that his death was an accident, but Oshii Takashi thinks otherwise. Oshii Takashi begins to investigate.'
+        }
+        ,
+        {
+            title: 'Ossans Love',
+            genre: ['Comedy', 'Romance', 'Office'],
+            photo:'OssansLovePoster.jpg',
+            cast: ['Tanaka Kei', 'Hayashi Kento', 'Yoshida Kentaro'],
+            type: 'show',
+            description: 'Haruta Soichi is a 33-years-old single man who isnt popular with women. He works at a real estate office and lives with his parents. However, one day, his mother walks away from him and he has to live independently. Soichi doesnt know basic things such as cooking or washing his clothes. He then decides to live with Maki Ryota, a coworker who is good at housekeeping. One day, Ryota and Kurosawa Musashi, a gay coworker,  both confess their feelings to Soichi.'
+        }
+        ,
+        {
+            title: 'Daddy is My Classmate',
+            genre: ['School', 'Comedy', 'Family'],
+            photo:'OyabakaSeishunPoster.jpg',
+            cast: ['Nagano Mei', 'Muro Tsuyoshi', 'Nakagawa Taishi', 'Imada Mio'],
+            type: 'show',
+            description: '40-year-old Taro Obika is a single father and works as a novelist. After his wife died from an illness, he has raised his daughter Sakura alone. He loves his daughter Sakura deeply. Since Sakura only attended all girls schools, he worries about her entering a co-ed university. To calm his worries, he decides to enroll in the same university as his daughter. Taro begins to enjoy campus life for himself.'
+        }
+        ,
+        {
+            title: 'Peach Girl',
+            genre: ['School', 'Comedy', 'Romance'],
+            photo:'PeachGirlPoster.jpg',
+            cast: ['Yamamoto Mizuki', 'Inoo Kei', 'Mackenyu', 'Nagano Mei'],
+            type: 'movie',
+            description: 'Adachi Momo is a female high school student. She appears to be a wild girl due to her tan skin and dyed hair, but she is  actually a naive and sweet student. Since her days in middle school, Momo has secretly held feelings for classmate Toji. Meanwhile, the most popular male student, Okayasu Kairi, becomes interested in her. Her friend Sae is jealous of her and tries to block Toji from Momo. Momo is conflicted with Toji and Kairi, but she has to make a decision.'
+        }
+        ,
+        {
+            title: 'Radiation House',
+            genre: ['Medical', 'Life'],
+            photo:'RadiationHousePoster.jpg',
+            cast: ['Kubota Masataka', 'Honda Tsubasa', 'Hirose Alice', 'Nobuyuki Suzuki'],
+            type: 'show',
+            description: 'Iori Igarashi is a radiographer. He received recognition for his work in the U.S. and he is now back in Japan. Iori Igarashi begins work at a general hospital. Meanwhile, An Amakasu works as a radiologist at the same hospital where Iori Igarashi now works.She wants to help patients, but she places a priority on administrative rules and running the hospital efficiently. An Amakasu seems to look down on radiographers who dont possess a doctors license, but she actually lacks confidence in herself. After Amakasu meets Igarashi, she changes.'
+        }
+        ,
+        {
+            title: 'Oh! My Boss',
+            genre: ['Romance', 'Office'],
+            photo: 'OhMyBossPoster.jpg',
+            cast: ['Kaimishiraishi Mone', 'Tamamori Yuta', 'Nanao', 'Mamiya Shotaro'],
+            type: 'show',
+            description: 'Nami Suzuki (Mone Kamishiraishi) was born and raised in a small rural town. She doesnt have a specific dream to pursue and she is an easy going person. As an ordinary woman, she desires to be happy with an ordinary life. She follows Kenya, who is her childhood friend and her unrequited love, and applies for a job in the supply management department of a large publishing company in Tokyo. Nami gets hired by the company, but she is assigned to work in the editorial department of a fashion magazine. \n There, Nami Suzuki works with chief editor Reiko Horai. She is a devil like boss, who makes spiteful remarks and has a cold personality. Reiko Horai treats Nami, who doesnt take her job seriously, in a callous manner. But, as Nami Suzuki watches her boss deal with her job, Nami begins to change her attitude toward her work.'
+        }
+        ,
+        {
+            title: 'Soshite Ikiru',
+            genre: ['Life'],
+            photo: 'SoshiteIkiruPoster.jpg',
+            cast: ['Arimura Kasumi', 'Sakaguchi Kentaro', 'Okayama Amane'],
+            type: 'show',
+            description: 'Toko Ikuta lost her parents in a car accident at the age of 3. Afterwards, her uncle, who ran a barbershop in Morioka, raised her and she had a happy childhood. Toko was active as a local idol and she dreamed of becoming an actress. At the age of 19, she is set to take an audition in Tokyo. The day before her audition, on March 11, 2011, the great Tohoku earthquake and tsunami hits Japan. In the autumn of 2011, Toko Ikuta works at a cafe. She goes with her Korean co-worker Han Yoo-Ri to do volunteer work in Kesennuma as the area recovers from the devastating tsunami. There, Toko Ikuta meets Kiyotaka Shimizu who is a university student from Tokyo and a member of a student volunteer group. While spending time together in Kesennuma, Toko  and Kiyotaka develop feelings for each other.'
+        }
+        ,
+        {
+            title: 'Teiichi no Kuni',
+            genre: ['School', 'Comedy'],
+            photo: 'TeiichiNoKuniPoster.gif',
+            cast: ['Suda Masaki', 'Mamiya Shotaro', 'Nomura Shuhei', 'Chiba Yudai'],
+            type: 'movie',
+            description: 'Teiichi Akaba is a student at a prestigious private male high school known for producing important politicians and bureaucrats. His dream is to become the prime minster and make his own country. To help achieve his dream, he wants to become elected as his schools student council president. The elected student president receives privileges and a better chance for promotions later in the political & bureaucrat world. A power struggle takes place surrounding the student election.'
+        }
+        ,
+        {
+            title: 'The Asadas',
+            genre: ['Family', 'Life'],
+            photo: 'TheAsadasPosterjpg.jpg',
+            cast: ['Ninomiya Kazunari', 'Suda Masaki', 'Kuroki Haru'],
+            type: 'movie',
+            description: 'Masashi  is a photographer. He has his parents and an older brother Yukihiro. Through the 2011 Tohoku earthquake and tsunami, Masashi begins to take staged photos of his family.'
+        }
+        ,
+        {
+            title: 'The Cinderella Addiction',
+            genre: ['Family', 'Mystery'],
+            photo: 'TheCinderellaAddictionPoster.jpg',
+            cast: ['Tsuchiya Tao', 'Tanaka Kei'],
+            type: 'movie',
+            description: 'Koharu Fukuura works at city hall. She has ordinary days, where she isnt particularly happy or miserable. Overnight, her life completely changes. Her grandfather collapses, her father is arrested for driving while intoxicated, and her house burns down. She also witnesses her boyfriend having an affair with her colleague. She loses everything that night. Koharu is now full of despair. At that time, she meets Doctor Daigo . He raises his 8-year-old daughter Hikari alone and he proposes to Koharu. He is like a prince to her. She accepts his proposal and they enjoy happy days together, but, one day, she commits a vicious crime.'
+        }
+        ,
+        {
+            title: 'Todome no Kiss',
+            genre: ['Romance', 'Mystery', 'Comedy'],
+            photo: 'TodomeNoKissPoster.jpg',
+            cast: ['Yamazaki Kento', 'Mackenyu', 'Kadowaki Mugi', 'Araki Yuko'],
+            type: 'show',
+            description: 'Dojima Otaro works as a popular host. Because of a past incident, he believes that love makes people unhappy. He now only pursues money and power. One day, mysterious woman appears in front of Otaro. The mysterious woman has a pale face with red lips. She kisses him and he dies, but the next moment he regains consciousness. He realizes he is now 7 days in the past. The mysterious woman also follows him. Due to her kiss, Otaro dies and goes back to the past over and over again.'
+        }
+        ,
+        {
+            title: 'Kinou Nani Tabeta',
+            genre: ['Romance', 'Life'],
+            photo: 'WhatDidYouEatYesterday.jpg',
+            cast: ['Uchino Seiyo', 'Nishijima Hidetoshi', 'Isomura Hayato'],
+            type: 'show',
+            description: 'Kakei Shiro is a 45 year old lawyer who works at a small law firm. He is a good cook and a meticulous and thrifty person who keeps the monthly food budget to 25,000 yen. Shiros daily routine is to leave work on time and head to a discount supermarket nearby. His partner Yabuki Kenji is the affable hairdresser in his 40s. The two of them share a two-bedroom apartment and the finer points of two men living together comes up at the dining table every day. Although the two of them have been in a relationship for three years and Shiros parents know he is gay, Shiro never shares the fact that he is gay or Kenji is his partner to anyone.'
+        }
+        ,
+        {
+            title: 'Yakuza and the Family',
+            genre: ['Crime'],
+            photo: 'YakuzaAndTheFamily.jpg',
+            cast: ['Ayano Go', 'Ono Machiko', 'Isomura Hayato'],
+            type: 'movie',
+            description: 'A story of yakuza family from 1999 to 2019. Kenji Yamamotos father died from using a stimulant drug. His life fell into desperation. Kenji Yamamoto then joined a crime syndicate. There, he meets the gangs boss Hiroshi Shibasaki. Hiroshi reaches out to Kenji and they developed a relationship like father and son. As time passes, Kenji has his own family.'
+        }
+        ,
+        {
+            title: 'Yume wo Ataeru',
+            genre: ['Life', 'Family'],
+            photo: 'YumeWoAtaeruPoster.jpg',
+            cast: ['Komatsu Nana', 'Mackenyu', 'Odagiri Joe'],
+            type: 'show',
+            description: '13 years ago, the Abe family moved to a town in the suburbs, surrounded by nature. The Abe family consists of their French father Toma, his Japanese wife Mikiko and their daughter Yuko. They appear to be the perfect family. Mikiko managed to get her daughter Yuko to take part in a CM audition and she was picked by Murano, director of the advertising agency. Yuko is now in show business. \n Several years later, Yuko transfers to a large entertainment company. As her mother wishes, Yuko is now popular and appears on the cover of magazines, variety shows and drama series. Yuko, though, feels an uncomfortable imbalance between her public image and her real self. During this time, she meets a dancer, Seiko, who marches to the beat of his own drum, and falls in love with him. The nightmare begins.'
+        }
+        ,
+        {
+            title: 'A Banana?',
+            genre: ['Life', 'Medical'],
+            photo: 'ABananaPoster.jpg',
+            cast: ['Miura Haruma', 'Oizumi Yo', 'Mitsuki Takahata'],
+            type: 'movie',
+            description: 'Hisashi Tanaka is a medical student in Hokkaido Prefecture, Japan. He does volunteer work and gets to know Yasuaki Kano at the hospital. Yasuaki has suffered from muscular dystrophy since he was 12-years-old. Yasuaki has his eccentric ways like running out of the hospital and saying that he wants to eat a banana late at night. The two begin a friendship. Yasuaki develops a crush on rookie volunteer Misaki Ando. He asks Hisashi to write a love letter for him, but Misaki is Hisashis girlfriend.'
+        }
+        ,
+        {
+            title: 'Hitman In Love',
+            genre: ['Romance', 'Mystery', 'Crime'],
+            photo: 'HitmanInLovePoster.jpg',
+            cast: ['Nakagawa Taishi', 'Suzuki Nobuyuki', 'Fujiki Naohito', 'Araki Yuko'],
+            type: 'show',
+            description: 'Onotora Shu does not know that his foster father is a legendary professional killer. However, his daily life dramatically changes after someone murders this professional killer. Shu decides to take over the family business and become a hitman in order to avenge his foster father. He is well prepared when he approaches Narumiya Mitsuki who is his assassination target. Despite his physical abilities as a hitman, he is not able to kill her because of his terrible timing, no matter how he tries. On the contrary, he ends up protecting her as danger approaches. The two of them, who should not fall in love, have an unlikely romance.'
+        }
+        ,
+        {
+            title: 'Not Quite Dead Yet',
+            genre: ['Comedy', 'Family'],
+            photo: 'NotQuiteDeadYetPoster.jpg',
+            cast: ['Hirose Suzu', 'Yoshizawa Ryo', 'Tsutsum Shinichi'],
+            type: 'movie',
+            description: 'Nanase Nobata is a senior at a university. She lives with her father Kei. Her father is the CEO of a pharmaceutical company. Nanases relationship with her father is not very good. One day, her father Kei drinks a drug which is supposed to make him die and come back to life 2 days later. He did this because he wants to figure out who is trying to steal from his company, but something goes wrong. Kei appears again as a ghost. Nanase tries to restore his life with help of Taku Matsuoka who works at Keis pharmaceutical company.'
+        }
+        ,
+        {
+            title: 'Laplaces Witch',
+            genre: ['Mystery'],
+            photo: 'LaplaceWitchPoster.jpg',
+            cast: ['Hirose Suzu', 'Sakurai Sho', 'Shida Mirai', 'Fukushi Sota'],
+            type: 'movie',
+            description: 'Two people are poisoned to death by hydrogen sulfide at hot springs located in different regions. The police ask Professor Shusuke Aoe, who is a geochemist, to determine whether the deaths were caused by freak accidents or were murders. While investigating the cases, Shusuke comes across Madoka Uhara. She guesses correctly that a natural phenomenon will take place. The police begin to suspect Madoka might be related to the deaths and a 3rd case takes place'
+        }
+        ,
+        {
+            title: 'Kids on the Slope',
+            genre: ['Romance', 'School'],
+            photo: 'KidsOnTheSlopePoster.jpg',
+            cast: ['Chinen Yuri', 'Komatsu Nana', 'Nakagawa Taishi'],
+            type: 'movie',
+            description: 'It is summer 10 years ago. Kaoru transfers to a new school and has a fateful encounter with the schools terrifying bad-boy Sentaro. They bond over jazz and Kaoru finds that hes oddly drawn to the rough-mannered Sentaro. After jamming on the piano and drums and spending time with Sentaros childhood friend Ritsuko, Kaoru falls for Ritsuko but finds out she likes Sentaro.'
+        }
+        ,
+        {
+            title: 'Narratage',
+            genre: ['Romance', 'School'],
+            photo: 'NarratagePoster.jpg',
+            cast: ['Matsumoto Jun', 'Arimura Kasumi', 'Sakaguchi Kentaro'],
+            type: 'movie',
+            description: 'University student Izumi is contacted by her drama club advisor in high school, Hayama, who wants her to participate in the graduation performance for a younger club member. Izumi received the support of Hayama when she had felt out of place at school and so has treasured memories with Hayama in her heart. However, when they reunite, her feelings begin to intensify.'
+        }
+        ,
+        {
+            title: 'Drive My Car',
+            genre: ['Life'],
+            photo: 'DriveMyCarPoster.jpg',
+            cast: ['Nishijima Hidetoshi'],
+            type: 'movie',
+            description: 'An aging, widowed actor seeks a chauffeur. The actor turns to his go-to mechanic, who ends up recommending a 20-year-old girl. Despite their initial misgivings, a very special relationship develops between the two.'
+        }
+        ,
+        {
+            title: 'To Each His Own',
+            genre: ['Life'],
+            photo: 'ToEachHisOwnPoster.jpg',
+            cast: ['Fukushi Sota', 'Kuroki Haru', 'Yoshida Kotaro'],
+            type: 'movie',
+            description:'A young Japanese office employee tries to end his life due to overwhelming pressure in the office environment. While he almost commits suicide, a classmate appears and saves his life. The classmate brings a different life to him from the moment they met.'
+        }
+        ,
+        {
+            title: 'Marigold in 4 Minutes',
+            genre: ['Life', 'Family', 'Romance'],
+            photo: 'MarigoldIn4MinutesPoster.jpg',
+            cast: ['Fukushi Sota', 'Nanao', 'Yokohama Ryusei'],
+            type: 'show',
+            description:'When 25-year-old Mikoto touches another persons hands, he sees a vision of that person dying. He has only now come to realize his visions are real and wants to believe the power to change fate, but fate is rigid and unchangeable. One day Mikoto touches his sisters hands and sees her fate.'
+        }
 
 ]

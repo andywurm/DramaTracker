@@ -19,6 +19,7 @@ import SignUpPage from './pages/SignUpPage';
 import DisplayContentPage from './pages/DisplayContentPage';
 import ActorsPage from './pages/ActorsPage';
 import SearchedPage from './pages/SearchedPage';
+import ProfilePage from './pages/ProfilePage';
 
 import search from '../src/images/search.png';
 import logo from '../src/images/logo.png';
@@ -30,6 +31,7 @@ import './LoginStyle.css';
 import './SignUpStyle.css';
 import './DisplayStyle.css';
 import './ActorStyle.css';
+import './ProfileStyle.css';
 import { UserContext, UserProvider } from './hooks/UserContext.js';
 
 function Navigation(props) {
@@ -116,6 +118,7 @@ function App() {
               <Route path="/content" component={DisplayContentPage} />
               <Route path="/actors" component={ActorsPage} />
               <Route path="/search" component={SearchedPage} />
+              <Route path="/profile" component={ProfilePage} />
             </Switch>
           </div>
         </div>

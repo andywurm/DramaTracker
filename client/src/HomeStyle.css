@@ -82,3 +82,11 @@
 .row{
     /* border: solid red 1px; */
 }
+
+.page-link{
+    color:#c21313;
+}
+
+.page-link:hover{
+    color: #ff3535;
+}

@@ -278,6 +278,370 @@ module.exports = [
         DOB:'May 19, 1993',
         height:'168cm',
         headshot:'KamikiRyunosuke.jpg'
+    },
+    {
+        name:'Shida Mirai',
+        japanese:'志田未来',
+        DOB:'May 10, 1993',
+        height:'150cm',
+        headshot:'ShidaMirai.jpg'
+    },
+    {
+        name:'Yamada Yuki',
+        japanese:'山田裕貴',
+        DOB:'September 18, 1990',
+        height:'177cm',
+        headshot:'YamadaYuki.jpg'
+    },
+    {
+        name:'Tsuchiya Tao',
+        japanese:'土屋太鳳',
+        DOB:'February 3, 1995',
+        height:'155cm',
+        headshot:'TsuchiyaTao.jpg'
+    },
+    {
+        name:'Matsuzaka Tori',
+        japanese:'松坂桃李',
+        DOB:'October 17, 1988',
+        height:'183cm',
+        headshot:'MatsuzakaTori.jpg'
+    },
+    {
+        name:'Nishii Yukito',
+        japanese:'西井幸人',
+        DOB:'June 14, 1995',
+        height:'160cm',
+        headshot:'NishiiYukito.jpg'
+    },
+    {
+        name:'Nakama Yukie',
+        japanese:'仲間 由紀恵',
+        DOB:'October 30, 1979',
+        height:'160cm',
+        headshot:'NakamaYukie.jpg'
+    },
+    {
+        name:'Matsu Takako',
+        japanese:'松たか子',
+        DOB:'June 10, 1977',
+        height:'165cm',
+        headshot:'MatsuTakako.jpg'
+    },
+    {
+        name:'Tamaki Hiroshi',
+        japanese:'玉木宏',
+        DOB:'January 14, 1980',
+        height:'180cm',
+        headshot:'TamakiHiroshi.jpg'
+    },
+    {
+        name:'Kawaguchi Haruna',
+        japanese:'川口春奈',
+        DOB:'February 10, 1995',
+        height:'166cm',
+        headshot:'KawaguchiHaruna.jpg'
+    },
+    {
+        name:'Ueno Juri',
+        japanese:'上野樹里',
+        DOB:'May 25, 1986',
+        height:'168cm',
+        headshot:'UenoJuri.jpg'
+    },
+    {
+        name:'Ikuta Toma',
+        japanese:'生田斗真',
+        DOB:'October 7, 1984',
+        height:'175cm',
+        headshot:'IkutaToma.jpg'
+    },
+    {
+        name:'Yamada Ryosuke',
+        japanese:'山田涼介',
+        DOB:'May 9, 1993',
+        height:'164cm',
+        headshot:'YamadaRyosuke.jpg'
+    },
+    {
+        name:'Honda Tsubasa',
+        japanese:'本田翼',
+        DOB:'June 27, 1992',
+        height:'166cm',
+        headshot:'HondaTsubasa.jpg'
+    },
+    {
+        name:'Fujiwara Tatsuya',
+        japanese:'藤原竜也',
+        DOB:'May 15, 1982',
+        height:'178cm',
+        headshot:'FujiwaraTatsuya.jpg'
+    },
+    {
+        name:'Mackenyu',
+        japanese:'真剣佑',
+        DOB:'November 16, 1996',
+        height:'177cm',
+        headshot:'Mackenyu.jpg'
+    },
+    {
+        name:'Yoshida Kotaro',
+        japanese:'吉田幸太郎',
+        DOB:'January 14, 1959',
+        height:'174cm',
+        headshot:'YoshidaKotaro.jpg'
+    },
+    {
+        name:'Abe Hiroshi',
+        japanese:'阿部寛',
+        DOB:'June 22, 1964',
+        height:'189cm',
+        headshot:'AbeHiroshi.jpg'
+    },
+    {
+        name:'Yoshizawa Ryo',
+        japanese:'吉沢亮',
+        DOB:'February 1, 1994',
+        height:'170cm',
+        headshot:'YoshizawaRyo.jpg'
+    },
+    {
+        name:'Imada Mio',
+        japanese:'今田美桜',
+        DOB:'March 5, 1997',
+        height:'157cm',
+        headshot:'ImadaMio.jpg'
+    },
+    {
+        name:'Ohtani Ryohei',
+        japanese:'大谷亮平',
+        DOB:'October 1, 1980',
+        height:'180cm',
+        headshot:'OhtaniRyohei.jpg'
+    },
+    {
+        name:'Araki Yuko',
+        japanese:'新木優子',
+        DOB:'December 15, 1993',
+        height:'165cm',
+        headshot:'ArakiYuko.jpg'
+    },
+    {
+        name:'Nakagawa Taishi',
+        japanese:'中川大志',
+        DOB:'June 14, 1998',
+        height:'179cm',
+        headshot:'NakagawaTaishi.jpg'
+    },
+    {
+        name:'Nagano Mei',
+        japanese:'永野芽郁',
+        DOB:'September 24, 1999',
+        height:'163cm',
+        headshot:'NaganoMei.jpg'
+    },
+    {
+        name:'Muro Tsuyoshi',
+        japanese:'ムロツヨシ',
+        DOB:'January 23, 1976',
+        height:'168cm',
+        headshot:'MuroTsuyoshi.jpg'
+    },
+    {
+        name:'Hirose Suzu',
+        japanese:'広瀬すず',
+        DOB:'June 19, 1998',
+        height:'159cm',
+        headshot:'HiroseSuzu.jpg'
+    },
+    {
+        name:'Hirose Alice',
+        japanese:'広瀬アリス',
+        DOB:'December 11, 1994',
+        height:'165cm',
+        headshot:'HiroseAlice.jpg'
+    },
+    {
+        name:'Suzuki Nobuyuki',
+        japanese:'鈴木伸之',
+        DOB:'October 14, 1992',
+        height:'185cm',
+        headshot:'SuzukiNobuyuki.jpg'
+    },
+    {
+        name:'Isomura Hayato',
+        japanese:'磯村勇斗',
+        DOB:'September 11, 1992',
+        height:'176cm',
+        headshot:'IsomuraHayato.jpg'
+    },
+    {
+        name:'Kuroki Haru',
+        japanese:'黒木華',
+        DOB:'March 14, 1990',
+        height:'164cm',
+        headshot:'KurokiHaru.jpg'
+    },
+    {
+        name:'Haru',
+        japanese:'波瑠',
+        DOB:'June 17, 1991',
+        height:'164cm',
+        headshot:'Haru.jpg'
+    },
+    {
+        name:'Nishijima Hidetoshi',
+        japanese:' 西島秀俊',
+        DOB:'March 29, 1971',
+        height:'178cm',
+        headshot:'NishijimaHidetoshi.jpg'
+    },
+    {
+        name:'Chinen Yuri',
+        japanese:'知念侑李',
+        DOB:'November 30, 1993',
+        height:'158cm',
+        headshot:'NishijimaHidetoshi.jpg'
+    },
+    {
+        name:'Inoo Kei',
+        japanese:'伊野尾慧',
+        DOB:'June 22, 1990',
+        height:'173cm',
+        headshot:'InooKei.jpg'
+    },
+    {
+        name:'Aragaki Yui',
+        japanese:'新垣結衣',
+        DOB:'June 11, 1988',
+        height:'169cm',
+        headshot:'AragakiYui.jpg'
+    },
+    {
+        name:'Sato Takeru',
+        japanese:'佐藤健',
+        DOB:'March 21, 1989',
+        height:'170cm',
+        headshot:'SatoTakeru.jpg'
+    },
+    {
+        name:'Mamiya Shotaro',
+        japanese:'間宮祥太朗',
+        DOB:'June 11, 1993',
+        height:'178cm',
+        headshot:'MamiyaShotaro.jpg'
+    },
+    {
+        name:'Tamamori Yuta',
+        japanese:'玉森裕太',
+        DOB:'March 17, 1990',
+        height:'177cm',
+        headshot:'TamamoriYuta.jpg'
+    },
+    {
+        name:'Okayama Amane',
+        japanese:'岡山天音',
+        DOB:'March 17, 1994',
+        height:'175cm',
+        headshot:'OkayamaAmane.jpg'
+    },
+    {
+        name:'Nomura Shuhei',
+        japanese:'野村周平',
+        DOB:'November 14, 1993',
+        height:'175cm',
+        headshot:'NomuraShuhei.jpg'
+    },
+    {
+        name:'Yudai Chiba',
+        japanese:'千葉雄大',
+        DOB:'March 9, 1989',
+        height:'173cm',
+        headshot:'YudaiChiba.jpg'
+    },
+    {
+        name:'Ninomiya Kazunari',
+        japanese:'二宮和也',
+        DOB:'June 17, 1983',
+        height:'168cm',
+        headshot:'NinomiyaKazunari.jpg'
+    },
+    {
+        name:'Tanaka Kei',
+        japanese:'田中圭',
+        DOB:'July 10, 1984',
+        height:'177cm',
+        headshot:'TanakaKei.jpg'
+    },
+    {
+        name:'Uchino Seiyo',
+        japanese:'内野聖陽',
+        DOB:'September 16, 1968',
+        height:'177cm',
+        headshot:'UchinoSeiyo.jpg'
+    },
+    {
+        name:'Sakurai Sho',
+        japanese:'櫻井翔',
+        DOB:'January 15, 1982',
+        height:'171cm',
+        headshot:'SakuraiSho.png'
+    },
+    {
+        name:'Kadowaki Mugi',
+        japanese:'門脇麦',
+        DOB:'August 10, 1992',
+        height:'160cm',
+        headshot:'KadowakiMugi.jpg'
+    },
+    {
+        name:'Ono Machiko',
+        japanese:'尾野真千子',
+        DOB:'November 4, 1981',
+        height:'163cm',
+        headshot:'OnoMachiko.jpg'
+    },
+    {
+        name:'Odagiri Joe',
+        japanese:'小田切 譲',
+        DOB:'February 16, 1976',
+        height:'176cm',
+        headshot:'OdagiriJoe.jpg'
+    },
+    {
+        name:'Oizumi Yo',
+        japanese:'大泉洋',
+        DOB:'April 3, 1973',
+        height:'178cm',
+        headshot:'OizumiYo.jpg'
+    },
+    {
+        name:'Sakaguchi Kentaro',
+        japanese:'坂口健太郎',
+        DOB:'July 11, 1991',
+        height:'183cm',
+        headshot:'SakaguchiKentaro.jpg'
+    },
+    {
+        name:'Ozawa Yukiyoshi',
+        japanese:'小澤征悦',
+        DOB:'June 6, 1974',
+        height:'183cm',
+        headshot:'OzawaYukiyoshi.jpg'
+    },
+    {
+        name:'Kazama Shunsuke',
+        japanese:'風間俊介',
+        DOB:'June 17, 1983',
+        height:'166cm',
+        headshot:'KazamaShunsuke.jpg'
+    },
+    {
+        name:'Sano Shiro',
+        japanese:'佐野史郎',
+        DOB:'March 4, 1955',
+        height:'176cm',
+        headshot:'SanoShiro.jpg'
     }
 
 ]

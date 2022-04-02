@@ -69,8 +69,31 @@ button:focus {
 .logoutWord{
   font-size: 15px;
   color: #cb0f0f;
+  background-color: none;
+  border-style: none;
+  background: none;
+  /* border:solid red 1px; */
+
 }
 
 .logoutWord:hover{
   color: #ff5c5c;
+  text-decoration: underline;
+}
+
+.fixDrop{
+  position: relative;
+  /* border: solid red 1px; */
+  top: 5px;
+}
+
+.logOwt{
+  /* border:solid red 1px; */
+  padding: 1px, 20px;
+  position: relative;
+  bottom: 7px;
+}
+
+hr{
+  margin-top: 10px;
 }

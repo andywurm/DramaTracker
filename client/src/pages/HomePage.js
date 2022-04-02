@@ -7,9 +7,12 @@ import { UserContext } from '../hooks/UserContext';
 
 function HomePage(props) {
 
-  const {user} = useContext(UserContext);
+  const { user } = useContext(UserContext);
   const [genre, setGenre] = useState();
   const [contents, setContents] = useState([]);
+  
+  let size = contents.length;
+  console.log(size);
 
   useEffect(() => {
 
@@ -24,7 +27,7 @@ function HomePage(props) {
 
     getData();
 
-  }, [])
+  }, []);
 
 
 
@@ -41,7 +44,7 @@ function HomePage(props) {
           <div className='PageTop'> </div>
         </div>
         <div className='col-md cat'>
-         <Dropdown setGenre={setGenre} />
+          <Dropdown setGenre={setGenre} />
         </div>
       </div>
 
@@ -49,10 +52,34 @@ function HomePage(props) {
       <br />
       <div className='ActualContainer'>
 
-        <DisplayCards list={contents.filter((e) => !genre || e.genre.includes(genre))} user = {user} />
+        <DisplayCards list={contents.filter((e) => !genre || e.genre.includes(genre))} user={user} />
 
         <br />
 
+      </div>
+
+      <br/>
+      <br/>
+      <div className='paginationPls'>
+        <nav aria-label="Page navigation example">
+          <ul className="pagination justify-content-center">
+            <li className="page-item">
+              <button className="page-link" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+                <span className="sr-only">Previous</span>
+              </button>
+            </li>
+            <li className="page-item"><button className="page-link">1</button></li>
+            <li className="page-item"><button className="page-link">2</button></li>
+            <li className="page-item"><button className="page-link">3</button></li>
+            <li className="page-item">
+              <button className="page-link" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+                <span className="sr-only">Next</span>
+              </button>
+            </li>
+          </ul>
+        </nav>
       </div>
 
       <div className="footer-copyright text-center py-5">© 2022 Copyright:

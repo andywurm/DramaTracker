@@ -81,9 +81,9 @@ db.sequelize.sync({ force: true }).then(async( ) =>  {
   })
 
   const use = await User.create({
-    firstName: 'hello',
-    lastName: 'bye',
-    email: 'hellow',
+    firstName: 'Jane',
+    lastName: 'Doe',
+    email: 'JaneDoe123@gmail.com',
     username: 'theUser',
     password: 'hello'
   })
