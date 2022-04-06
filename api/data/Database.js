@@ -4,7 +4,7 @@ module.exports = [
         title: 'Dont Call It Mystery',
         genre: ['Mystery', 'Psychological'],
         photo: 'MysteryToIuNakarePoster.jpg',
-        cast: ['Suda Masaki','Ito Sairi'],
+        cast: ['Suda Masaki','Ito Sairi','Kadowaki Mugi'],
         type: 'show',
         description: 'Kuno Totono is a mystery-solving college student. One day when he is in the middle of making curry, the police show up to his house and accuse him of committing a crime he does not remember. From here he figures out who the real culprit is and begins to go on adventures helping the police to solve crimes in different and quirky ways.'
     }
@@ -418,7 +418,7 @@ module.exports = [
             title: 'Ossans Love',
             genre: ['Comedy', 'Romance', 'Office'],
             photo:'OssansLovePoster.jpg',
-            cast: ['Tanaka Kei', 'Hayashi Kento', 'Yoshida Kentaro'],
+            cast: ['Tanaka Kei', 'Hayashi Kento', 'Yoshida Kotaro'],
             type: 'show',
             description: 'Haruta Soichi is a 33-years-old single man who isnt popular with women. He works at a real estate office and lives with his parents. However, one day, his mother walks away from him and he has to live independently. Soichi doesnt know basic things such as cooking or washing his clothes. He then decides to live with Maki Ryota, a coworker who is good at housekeeping. One day, Ryota and Kurosawa Musashi, a gay coworker,  both confess their feelings to Soichi.'
         }
@@ -454,9 +454,9 @@ module.exports = [
             title: 'Oh! My Boss',
             genre: ['Romance', 'Office'],
             photo: 'OhMyBossPoster.jpg',
-            cast: ['Kaimishiraishi Mone', 'Tamamori Yuta', 'Nanao', 'Mamiya Shotaro'],
+            cast: ['Tamamori Yuta', 'Kamishiraishi Mone', 'Nanao', 'Mamiya Shotaro'],
             type: 'show',
-            description: 'Nami Suzuki (Mone Kamishiraishi) was born and raised in a small rural town. She doesnt have a specific dream to pursue and she is an easy going person. As an ordinary woman, she desires to be happy with an ordinary life. She follows Kenya, who is her childhood friend and her unrequited love, and applies for a job in the supply management department of a large publishing company in Tokyo. Nami gets hired by the company, but she is assigned to work in the editorial department of a fashion magazine. \n There, Nami Suzuki works with chief editor Reiko Horai. She is a devil like boss, who makes spiteful remarks and has a cold personality. Reiko Horai treats Nami, who doesnt take her job seriously, in a callous manner. But, as Nami Suzuki watches her boss deal with her job, Nami begins to change her attitude toward her work.'
+            description: 'Nami Suzuki was born and raised in a small rural town. She doesnt have a specific dream to pursue and she is an easy going person. As an ordinary woman, she desires to be happy with an ordinary life. She follows Kenya, who is her childhood friend and her unrequited love, and applies for a job in the supply management department of a large publishing company in Tokyo. Nami gets hired by the company, but she is assigned to work in the editorial department of a fashion magazine. \n There, Nami Suzuki works with chief editor Reiko Horai. She is a devil like boss, who makes spiteful remarks and has a cold personality. Reiko Horai treats Nami, who doesnt take her job seriously, in a callous manner. But, as Nami Suzuki watches her boss deal with her job, Nami begins to change her attitude toward her work.'
         }
         ,
         {
@@ -610,6 +610,141 @@ module.exports = [
             cast: ['Fukushi Sota', 'Nanao', 'Yokohama Ryusei'],
             type: 'show',
             description:'When 25-year-old Mikoto touches another persons hands, he sees a vision of that person dying. He has only now come to realize his visions are real and wants to believe the power to change fate, but fate is rigid and unchangeable. One day Mikoto touches his sisters hands and sees her fate.'
+        }
+        ,
+        {
+            title: 'We Made a Bouquet',
+            genre: ['Romance', 'Life'],
+            photo: 'WeMadeABouquetPoster.jpg',
+            cast: ['Suda Masaki', 'Arimura Kasumi'],
+            type: 'movie',
+            description:'A love story spanning 5 years between a man and a woman. A 22-year-old man and a 22-year-old woman both miss the last train at Meidaimae Station in Tokyo and meet there. Their relationship develops romantically.'
+        }
+        ,
+        {
+            title: 'Her Love Boils Water',
+            genre: ['Life', 'Family'],
+            photo: 'HerLoveBoilsBathwaterPoster.jpg',
+            cast: ['Miyazawa Rie', 'Sugisaki Hana', 'Odagiri Joe', 'Matsuzaka Tori'],
+            type: 'movie',
+            description:'Futaba has a tender and tough side. Her daughter is Azumi. One day, she learns that she doesnt have much time left to live. Futaba decides she has 4 things to do before she dies: \n 1.) Find her missing husband and get him to resume the family bathhouse business \n 2.) Get her daughter Azumi to stand on her own \n 3.) Find the right man for Azumi \n 4.) Something related to her secret that nobody knows about.'
+        }
+        ,
+        {
+            title: 'My Rainy Days',
+            genre: ['Romance'],
+            photo: 'MyRainyDaysPoster.jpg',
+            cast: ['Sasaki Nozomi', 'Tanihara Shosuke'],
+            type: 'movie',
+            description:'17-year-old high school student Rio is always the center of attention due to her beauty. Yet, Rio has never cared about anyone but herself due to her traumatic past. Her friends and boyfriends exist only so she can use them for her gains. Rio is only interested in money.\n Then one day she meets 35-year-old college professor Kouki and falls in love for the first time. Rio feels confused by her emotional change and expresses her love to Kouki honestly. Although Kouki becomes interested in Rio, there is a reason he cant pursue the relationship.'
+        }
+        ,
+        {
+            title: 'Our 30 Minute Sessions',
+            genre: ['Life'],
+            photo: 'Our30MinuteSessionsPoster.jpg',
+            cast: ['Mackenyu', 'Kitamura Takumi'],
+            type: 'movie',
+            description:'Aki Miyata was a musician and died 1 year ago. He had a bright and positive personality. Sota Kubota is a university student. He is not good at socializing with people. One day, Sota Kubota picks up a cassette tape, which was left by Aki Miyata. If Sota Kubota plays the cassette tape, Aki Miyatas spirit takes over Sota Kubotas body for only 30 minutes. With Aki Miyatas spirit in his body, Sota Kubota goes to see Akis former girlfriend Kana Murase and his other bandmates.'
+        }
+        ,
+        {
+            title: 'The Master Plan',
+            genre: ['Mystery'],
+            photo: 'TheMasterPlanPoster.jpg',
+            cast: ['Mackenyu', 'Iwata Takanori'],
+            type: 'movie',
+            description:'Kida and Makoto have been friends since childhood. Later they befriend Yocchi, the new transfer student. Neither of them have parents, so they spend time with each other daily, essentially growing up together. An incident occurs when they are twenty and that tears their world apart. Years later, both boys are employed in the criminal underworld, with Kida as a negotiator and Makoto as a trading companys CEO. It has now taken them ten years to get revenge on the world that changed their fates, so many years ago.'
+        }
+        ,
+        {
+            title: 'Yurigokoro',
+            genre: ['Psychological', 'Romance', 'Mystery'],
+            photo: 'YurigokoroPoster.jpg',
+            cast: ['Matsuzaka Tori', 'Yoshitaka Yuriko'],
+            type: 'movie',
+            description:'Ryosukes father has been diagnosed with late-stage cancer. Ryosuke finds a diary in his fathers study. There is a note written by a murderer. '
+        }
+        ,
+        {
+            title: '3 Nen A Gumi',
+            genre: ['Psychological', 'Action', 'School'],
+            photo: '3NenAGumiPoster.jpg',
+            cast: ['Suda Masaki', 'Nagano Mei'],
+            type: 'show',
+            description:'With graduation 10 days away, homeroom teacher Hiiragi gathers all 29 students of class 3-A and proclaims them as his hostages. His last lesson regards the death of a student that passed away a few months before. Nobody will be able to graduate until the truth is known.'
+        }
+        ,
+        {
+            title: 'Ouroboros',
+            genre: ['Action', 'Mystery', 'Crime'],
+            photo: 'OuroborosPoster.jpg',
+            cast: ['Ueno Juri', 'Ikuta Toma', 'Oguri Shun'],
+            type: 'show',
+            description:'Ryuzaki Ikuo and Danno Tatsuya are orphans who grew up in an orphanage called Mahoroba no Ie. When they were elementary school students, an orphanage staff, who took care of them like an older sister, was killed by someone before their very eyes. The two of them gave statements to the police, but their words were squashed by a police officer with a gold watch and the case was also covered up for some reason. 15 years later, Ikuo has become a detective. Skilled at catching a whiff of cases, he has the highest rate of arrests in his police precinct. On the other hand, Tatsuya has risen to the top of the underworld as a leading member of an organized crime group. A police and a gangster with only each other to trust. The objectives of these two people, who should never have any association, are to locate the gold watchman within the police, find out the truth and expose the darkness of this all-powerful organization.'
+        }
+        ,
+        {
+            title: 'Mother',
+            genre: ['Family'],
+            photo: 'MotherPoster.jpg',
+            cast: ['Ono Machiko', 'Matsuyuki Yasuko'],
+            type: 'show',
+            description:'Elementary school teacher Suzuhara Nao decides to abduct Michiki Rena, one of her female students, after discovering that she is being abused by her mother. Fleeing Hokkaido to Tokyo, the two experience various events together along the way, with Nao serving as a substitute mother and Rena finally experiencing familial love for the first time.'
+        }
+        ,
+        {
+            title: 'Juhan Shuttai',
+            genre: ['Comedy', 'Life'],
+            photo: 'JuhanShuttaiPoster.jpg',
+            cast: ['Kuroki Haru', 'Odagiri Joe', 'Sakaguchi Kentaro'],
+            type: 'show',
+            description:'Kokoro Kurosawa used to be a contender for the Olympic Judo Team, but she had to give up on her dream due to an injury. In the end, she ends up working at weekly manga magazine "Vibes." The publishing industry is going through a turbulent time due to ebooks. Members of the editorial department struggle to come up with ways to sell more manga books. She learns about editing from her senior editors and becomes fascinated with the edition world, interacting with manga writers, and discovering new manga artists. But what surprises her the most is that in a competitive world such as manga publishing, not all dreams come true, and even when they do, they come with a price.'
+        }
+        ,
+        {
+            title: 'Dele',
+            genre: ['Mystery', 'Life'],
+            photo: 'DelePoster.jpg',
+            cast: ['Suda Masaki', 'Aso Kumiko', 'Yamada Takayuki'],
+            type: 'show',
+            description:'Freelance programmer Sakagami Keishi is paralysed in the lower half of his body because of an unknown illness and confined to a wheelchair. He sets up a company called dele. LIFE in partnership with the law firm established by his late father. At the request of clients, Sakagami works together with the freelance jack-of-all-trades Mashiba Yutaro to delete all unfavorable digital records left in their computers and smartphones after they die.'
+        }
+        ,
+        {
+            title: 'Koi Desu',
+            genre: ['Romance', 'Comedy'],
+            photo: 'KoiDesuPoster.jpg',
+            cast: ['Sugisaki Hana', 'Suzuki Nobuyuki', 'Sugino Yosuke'],
+            type: 'show',
+            description:'Akaza Yukiko attends a high school for blind. She has amblyopia, which causes her to recognize colors only vaguely and she can recognize large letters with a magnifying glass. When she walks outdoors, she always carries a white cane. Nevertheless, she has a bright personality. One day, Yukiko happens to meet delinquent boy Kurokawa Morio. At first, Yukiko doesnt like him, but she somehow gains an understanding of him. They become attracted to each other.'
+        }
+        ,
+        {
+            title: 'Kikazaru Koi',
+            genre: ['Romance', 'Life'],
+            photo: 'KikazaruKoiPoster.jpg',
+            cast: ['Kawaguchi Haruna', 'Yokohama Ryusei'],
+            type: 'show',
+            description:'Mashiba Kurumi works as a publicist for "el Arco Iris", an interior design company that is becoming popular with young people on social media. Shes a fashionista who cares a lot about her appearance and about what others think. She works hard to gain the admiration of her coworkers and boss, Hayama Shogo. \n Kurumi is so busy with work that she forgets to renew her lease on her apartment. Her friend Koko helps her find a new place... but its a share house with 3 strangers! Theres Fujino Shun, a minimalist chef who just wants to live a simple life. Then theres Terai Haruto, Shuns cousin who works as an online counselor to help people with their problems. Finally, theres Hase Ayaka, an aspiring artist who makes contemporary art while working part-time as a delivery driver at a high-end supermarket. \n And so these people of different ages, occupations, and values come together under one roof. Though their personalities clash, Kurumi falls in love, deepens her friendships, and learns to take off her "armor" and live as herself.'
+        }
+        ,
+        {
+            title: 'Saka no Tochu no Ie',
+            genre: ['Family', 'Life'],
+            photo: 'SakaNoTochuNoIePoster.jpg',
+            cast: ['Shibasaki Ko'],
+            type: 'show',
+            description:'Yamazaki Risako lives with her husband Yoichiro and 3-year-old daughter Fumika. One day, she receives a notification from the court that she has been selected as an alternate member of the jury for a shocking criminal case. The defendant in the case is Ando Mizuho, a full-time housewife who is the same age as Risako. She is on trial for causing the death of her 8-month-old daughter by dropping her into the bathtub. As a mother herself, Risako feels repulsed that Mizuho killed her own child. However, after the trial opens, Mizuho’s circumstances remind Risako of her own past and she soon becomes confused with the chaotic feelings that have lain dormant in her. '
+        }
+        ,
+        {
+            title: 'Rich Man Poor Woman',
+            genre: ['Romance', 'Life'],
+            photo: 'RichManPoorWomanPoster.jpg',
+            cast: ['Ishihara Satomi', 'Oguri Shun'],
+            type: 'show',
+            description:'29-year-old Hyuga Toru is a wealthy man. He first started to run an internet website from his small room and his hobby began to make a lot of money. Nowadays, he doesnt like to socialize and if somebody comes to him he suspects that they may want his money. \n Sawaki Chihiro attends a job fair and by an unexpected occurrence begins to work for Toru. Chihiro soon realizes that Toru isnt so bad. Theres pureness in him and also a good deal of loneliness. She then begins to have feelings for him.'
         }
 
 ]

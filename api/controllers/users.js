@@ -16,6 +16,31 @@ router.post('/sign', async (req, res) => {
     }
 });
 
+router.post('/update', async (req, res) => {
+    console.log(req.body);
+    try {  
+        const updatedUser = await User.update(
+            {
+                firstName: req.body.firstName,
+                lastName: req.body.lastName,
+                password: req.body.password
+            },
+            {where: {
+                username: req.body.username
+            }}
+        )
+        const person = await User.findOne({
+           where:{
+               username: req.body.username
+           }
+        })
+        res.status(200).json({ value: person });
+    } catch (e) {
+        res.status(400).json({ value: "error saving information" });
+    }
+   
+})
+
 router.post('/log', async (req, res) => {
     try {
         console.log(req.body);
@@ -59,10 +84,10 @@ router.get('/list', async (req, res) => {
             },
 
         },
-         {
+        {
             model: Actor,
             attributes: ['name'],
-          }]
+        }]
 
     })
 
@@ -79,15 +104,15 @@ router.post('/add', async (req, res) => {
     })
 
     const content = await Content.findOne({
-        where:{
+        where: {
             id: req.body.contentId
         }
     })
 
-    const found = await user.addContent(content,{through: {listType: req.body.listType}})
+    const found = await user.addContent(content, { through: { listType: req.body.listType } })
 
-    res.status(200).json({ value: found});
-    
+    res.status(200).json({ value: found });
+
 
 });
 

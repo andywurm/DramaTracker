@@ -501,7 +501,7 @@ module.exports = [
         japanese:'知念侑李',
         DOB:'November 30, 1993',
         height:'158cm',
-        headshot:'NishijimaHidetoshi.jpg'
+        headshot:'ChinenYuri.jpg'
     },
     {
         name:'Inoo Kei',
@@ -643,5 +643,93 @@ module.exports = [
         height:'176cm',
         headshot:'SanoShiro.jpg'
     }
-
+    ,
+    {
+        name:'Sugisaki Hana',
+        japanese:'杉咲花',
+        DOB:'October 2, 1997',
+        height:'153cm',
+        headshot:'SugisakiHana.jpg'
+    }
+    ,
+    {
+        name:'Miyazawa Rie',
+        japanese:'宮沢りえ',
+        DOB:'April 6, 1973',
+        height:'167cm',
+        headshot:'MiyazawaRie.jpg'
+    }
+    ,
+    {
+        name:'Sasaki Nozomi',
+        japanese:'佐々木希',
+        DOB:'February 8, 1988',
+        height:'168cm',
+        headshot:'SasakiNozomi.jpg'
+    }
+    ,
+    {
+        name:'Tanihara Shosuke',
+        japanese:'谷原章介',
+        DOB:'July 8, 1972',
+        height:'183cm',
+        headshot:'TaniharaShosuke.jpg'
+    }
+    ,
+    {
+        name:'Kitamura Takumi',
+        japanese:'北村匠海',
+        DOB:'November 3, 1997',
+        height:'175cm',
+        headshot:'KitamuraTakumi.jpg'
+    }
+    ,
+    {
+        name:'Iwata Takanori',
+        japanese:'岩田剛典',
+        DOB:'March 6, 1989',
+        height:'174cm',
+        headshot:'IwataTakanori.jpg'
+    }
+    ,
+    {
+        name:'Matsuyuki Yasuko',
+        japanese:'松雪泰子',
+        DOB:'November 28, 1972',
+        height:'165cm',
+        headshot:'MatsuyukiYasuko.jpg'
+    }
+    ,
+    {
+        name:'Yamada Takayuki',
+        japanese:'山田孝之',
+        DOB:'October 20, 1983',
+        height:'169cm',
+        headshot:'YamadaTakayuki.jpg'
+    }
+    ,
+    {
+        name:'Sugino Yosuke',
+        japanese:'杉野遥亮',
+        DOB:'September 18, 1995',
+        height:'185cm',
+        headshot:'SuginoYosuke.jpg'
+    }
+    ,
+    {
+        name:'Shibasaki Ko',
+        japanese:'柴咲コウ',
+        DOB:'August 5, 1981',
+        height:'160cm',
+        headshot:'ShibasakiKo.jpg'
+    }
+    ,
+    {
+        name:'Hayashi Kento',
+        japanese:'林遣都',
+        DOB:'December 6, 1990',
+        height:'173cm',
+        headshot:'HayashiKento.jpg'
+    }
+    
 ]

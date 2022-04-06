@@ -16,6 +16,11 @@
 
 .nameSpace{
     /* border: solid red 1px; */
+    font-size: 2em;
+    justify-content: center;
+    position: relative;
+    top:100px;
+    height: 35vh;
 }
 
 .editInfo{
@@ -36,4 +41,15 @@
 
 .inputs{
     width: 50%;
+}
+
+.defaultUserPic{
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 100px;
+}
+
+.UsersName{
+    position: relative;
+    top: 15px;
 }

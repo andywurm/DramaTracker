@@ -1,10 +1,10 @@
 import React, { useContext, useState } from "react";
 import { UserContext } from '../hooks/UserContext';
-// import userPic from '../src/images/blankProfile.png';
+import userPic from '../images/blankProfile.jpg';
 
 function ProfilePage(props) {
 
-    const { user } = useContext(UserContext);
+    const { user, setUser } = useContext(UserContext);
     const [fName, setFName] = useState(user.firstName);
     const [lName, setLName] = useState(user.lastName);
     const [email, setEmail] = useState(user.email);
@@ -17,7 +17,30 @@ function ProfilePage(props) {
         setEditMode("Yes");
     }
 
-    function saveUpdatedInfo() {
+    async function saveUpdatedInfo() {
+
+        const response = await fetch('/api/users/update', {
+            method: "POST",
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+              firstName: fName,
+              lastName: lName,
+              email: email,
+              username: uName,
+              password: password
+            })
+          });
+
+          if (response.status === 200) {
+              const person = await response.json();
+                console.log(person)
+                setUser(person.value);
+          } else {
+            alert("Save was unsuccessful. Please try again.");
+          }
+          
         setEditMode("No");
     }
 
@@ -29,8 +52,8 @@ function ProfilePage(props) {
                 <div className="row">
 
                     <div className="col nameSpace">
-                        {/* <img src={userPic} alt="Profile pic"/> */}
-                        <div>{user.username}</div>
+                        <img className="defaultUserPic" src={userPic} alt="Profile pic"/>
+                        <div className="UsersName">{user.username}</div>
                     </div>
 
                     <div className="col-7 infoSpace">
@@ -59,9 +82,9 @@ function ProfilePage(props) {
                                         <label className="labels">Last Name: &nbsp;
                                             <input className="inputs" value={lName} type="text" onChange={(e) => setLName(e.target.value)} />  </label>
                                         <label className="labels">Email: &nbsp; &nbsp; &nbsp;
-                                            <input className="inputs" value={email} type="text" onChange={(e) => setEmail(e.target.value)} /></label>
+                                            <input className="inputs" value={email}  readOnly /></label>
                                         <label className="labels">Username: &nbsp;
-                                            <input className="inputs" value={uName} type="text" onChange={(e) => setUName(e.target.value)} />  </label>
+                                            <input className="inputs" value={uName} readOnly />  </label>
                                         <label className="labels">Password: &nbsp;
                                             <input className="inputs" value={password} type="text" onChange={(e) => setPassword(e.target.value)} />  </label>
 
