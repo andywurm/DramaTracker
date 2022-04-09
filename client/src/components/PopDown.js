@@ -1,21 +1,22 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { OverlayTrigger, Button, Popover } from 'react-bootstrap';
 import { useHistory } from 'react-router-dom';
-
-function handleLogout(){
-    window.location.reload();
-}
+import { UserContext } from '../hooks/UserContext';
 
 
 
+function PopDown({ username }) {
 
+    const { signout } = useContext(UserContext);
 
-function PopDown({username}) {
+    function handleLogout() {
+        signout();
+    }
 
     const history = useHistory();
 
-    function handleProfile(){
-    
+    function handleProfile() {
+
         history.push("/profile");
     }
 
@@ -28,10 +29,10 @@ function PopDown({username}) {
                 <Popover id={`popover-positioned-bottom`}>
                     <Popover.Body>
                         <button className='logoutWord fixDrop' onClick={handleProfile} > Profile</button>
-                        <hr className='lined'/>
+                        <hr className='lined' />
                         <a className='logoutWord logOwt' href='/' onClick={handleLogout}> Sign Out</a>
-                        <br/>
-                        
+                        <br />
+
                     </Popover.Body>
                 </Popover>
             }

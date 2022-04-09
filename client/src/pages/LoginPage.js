@@ -5,40 +5,44 @@ import logo from '../images/logo2.png';
 
 function LoginPage(props) {
 
-  const {setUser} = useContext(UserContext);
+  const {setUser,authenticate} = useContext(UserContext);
   const [uName, setUName] = useState("");
   const [password, setPassword] = useState("");
 
   const history = useHistory();
 
   async function Login() {
-    const response = await fetch('/api/users/log', {
-      method: "POST",
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        username: uName,
-        password: password
-      })
-    }
-    ,
-    {withCredentials: true}
+    // const response = await fetch('/api/users/log', {
+    //   method: "POST",
+    //   headers: {
+    //     'Content-Type': 'application/json'
+    //   },
+    //   body: JSON.stringify({
+    //     username: uName,
+    //     password: password
+    //   })
+    // }
+    // ,
+    // {withCredentials: true}
    
-    );
+    // );
 
-    const body = await response.json();
-    console.log(body);
+    const response = authenticate(uName,password);
 
-    console.log(response);
 
-    if (response.status === 200) {
-      setUser(body.value);
+
+    // const body = await response.json();
+    // console.log(body);
+
+    // console.log(response);
+
+    // if (response.status === 200) {
+    //   setUser(body.value);
       history.push('/');
-    } else {
-      alert("Login was unsuccessful. Please try again.");
-    }
-    console.log(response);
+    // } else {
+    //   alert("Login was unsuccessful. Please try again.");
+    // }
+    // console.log(response);
 
 
   }
