@@ -731,5 +731,133 @@ module.exports = [
         height:'173cm',
         headshot:'HayashiKento.jpg'
     }
+    ,
+    {
+        name:'Yokoyama Yu',
+        japanese:'横山裕',
+        DOB:'May 9, 1981',
+        height:'176cm',
+        headshot:'YokoyamaYu.jpg'
+    }
+    ,
+    {
+        name:'Yoshine Kyoko',
+        japanese:'芳根京子',
+        DOB:'February 28, 1997',
+        height:'159cm',
+        headshot:'YoshineKyoko.jpg'
+    }
+    ,
+    {
+        name:'Nagasawa Masami',
+        japanese:'長澤まさみ',
+        DOB:'June 3, 1987',
+        height:'168cm',
+        headshot:'NagasawaMasami.jpg'
+    }
+    ,
+    {
+        name:'Takahashi Issei',
+        japanese:'高橋一生',
+        DOB:'December 9, 1980',
+        height:'177cm',
+        headshot:'TakahashiIssei.jpg'
+    }
+    ,
+    {
+        name:'Takei Emi',
+        japanese:'武井咲',
+        DOB:'December 25, 1993',
+        height:'163cm',
+        headshot:'TakeiEmi.jpg'
+    }
+    ,
+    {
+        name:'Miyazawa Hio',
+        japanese:'宮沢氷魚',
+        DOB:'April 24, 1994',
+        height:'184cm',
+        headshot:'MiyazawaHio.jpg'
+    }
+    ,
+    {
+        name:'Fujiwara Kisetsu',
+        japanese:'藤原季節',
+        DOB:'January 18, 1993',
+        height:'173cm',
+        headshot:'FujiwaraKisetsu.jpg'
+    }
+    ,
+    {
+        name:'Nagayama Eita',
+        japanese:'永山瑛太',
+        DOB:'December 13, 1982',
+        height:'179cm',
+        headshot:'NagayamaEita.jpg'
+    }
+    ,
+    {
+        name:'Shirahama Alan',
+        japanese:'白濱亜嵐',
+        DOB:'August 4, 1993',
+        height:'173cm',
+        headshot:'ShirahamaAlan.jpg'
+    }
+    ,
+    {
+        name:'Miura Shohei',
+        japanese:'三浦翔平',
+        DOB:'June 3, 1988',
+        height:'180cm',
+        headshot:'MiuraShohei.jpg'
+    }
+    ,
+    {
+        name:'Ohashi Kazuya',
+        japanese:'大橋和也',
+        DOB:'August 9, 1997',
+        height:'168cm',
+        headshot:'OhashiKazuya.jpg'
+    }
+    ,
+    {
+        name:'Chiba Yudai',
+        japanese:'千葉雄大',
+        DOB:'March 9, 1989',
+        height:'173cm',
+        headshot:'ChibaYudai.jpg'
+    }
+    ,
+    {
+        name:'Nao',
+        japanese:'奈緒',
+        DOB:'February 10, 1995',
+        height:'157cm',
+        headshot:'Nao.jpg'
+    }
+    ,
+    {
+        name:'Yamamoto Mizuki',
+        japanese:'山本美月',
+        DOB:'July 18, 1991',
+        height:'167cm',
+        headshot:'YamamotoMizuki.jpg'
+    }
+    ,
+    {
+        name:'Okada Junichi',
+        japanese:'岡田准一',
+        DOB:'November 18, 1980',
+        height:'169cm',
+        headshot:'OkadaJunichi.jpg'
+    }
+    ,
+    {
+        name:'Okada Masaki',
+        japanese:'岡田将生',
+        DOB:'August 15, 1989',
+        height:'181cm',
+        headshot:'OkadaMasaki.jpg'
+    }
     
 ]

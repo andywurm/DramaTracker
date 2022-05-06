@@ -746,5 +746,320 @@ module.exports = [
             type: 'show',
             description:'29-year-old Hyuga Toru is a wealthy man. He first started to run an internet website from his small room and his hobby began to make a lot of money. Nowadays, he doesnt like to socialize and if somebody comes to him he suspects that they may want his money. \n Sawaki Chihiro attends a job fair and by an unexpected occurrence begins to work for Toru. Chihiro soon realizes that Toru isnt so bad. Theres pureness in him and also a good deal of loneliness. She then begins to have feelings for him.'
         }
+        ,
+        {
+            title: '8 Year Engagement',
+            genre: ['Romance', 'Life'],
+            photo: '8YearEngagementPoster.jpg',
+            cast: ['Sato Takeru', 'Tsuchiya Tao'],
+            type: 'movie',
+            description:'Hisashi and Mai are set to have their wedding ceremony in 3 months, but Mai falls ill and lapses into a coma. Hisashi does not give up on his fiance and prays for her recovery. Finally, Mai wakes up, but she doesnt have any memory of Hisashi.'
+        }
+        ,
+        {
+            title: 'Orange',
+            genre: ['Romance', 'Psychological'],
+            photo: 'OrangePoster.jpg',
+            cast: ['Yamazaki Kento', 'Tsuchiya Tao'],
+            type: 'movie',
+            description:'During the spring of her 16th year, Takamiya Naho receives a letter from her future self. Upon reading the initial page of the letter, her class was introduced to a transfer student from Tokyo named Naruse Kakeru. The letter she realized was an account of the things her future self had experienced and regretted the most. Frightened, she tries to avoid reading further, but as her interests towards Kakeru bloom, Naho eventually decides to encourage him. Naho, together with the help of her friends, Suwa, Chino, Hagita, and Azusa do their best to avoid having the same regrets their future self had and heals Kakeru from his desolation and self-blame.'
+        }
+        ,
+        {
+            title: 'My Little Monster',
+            genre: ['Romance', 'Comedy', 'School'],
+            photo: 'MyLittleMonsterPoster.jpg',
+            cast: ['Suda Masaki', 'Tsuchiya Tao', 'Yamada Yuki', 'Hamabe Minami'],
+            type: 'movie',
+            description:'Mizutani Shizuku is a self-absorbed overachiever,​ concerned only with maintaining the highest grades in school.​ Yoshida Haru is an impulsive short tempered brute,​ who scares everyone with his explosive bursts of violence.​ \n Haru gets suspended on the first day of school when he encounters some bullies harassing a student and dispatches the bullies with great bloody violence.​ Mizutani is tasked with delivering school materials to Haru who interprets this as an act of friendship and latches on to Mizutani,​ much to her dismay.​ And so begins a strange and potentially combustible relationship!'
+        }
+        ,
+        {
+            title: 'Kasane',
+            genre: ['Psychological'],
+            photo: 'KasanePoster.jpg',
+            cast: ['Tsuchiya Tao', 'Yokoyama Yu', 'Yoshine Kyoko'],
+            type: 'movie',
+            description:'Kasanes face is so hideous, you could not bear to look twice at her. Her ugliness has forced her to walk a harsh path in life. But her mother left her something, a tube of lipstick. The power of this lipstick will change everything about her downtrodden life.'
+        }
+        ,
+        {
+            title: 'Door into Summer',
+            genre: ['Life'],
+            photo: 'DoorIntoSummerPoster.jpg',
+            cast: ['Yamazaki Kento', 'Fujiki Naohito'],
+            type: 'movie',
+            description:'In 1995, Takakura Soichiro is a scientist who works on developing a robot. He is also on the verge of completing a plasma battery, following the wishes of the deceased Matsushita. \n Matsushita was a friend of Takakuras late father and raised Takakura as his son. \n Outside of work, Soichiro Takakura has peaceful days with his cat Pete, his girlfriend, Shiraishi-san, and Riko the daughter of Matsushita. He is soon betrayed by his business partner and by his girlfriend. Takakura then loses control of his company and the work he has done on the robot and plasma battery. \n Takakura then opts to place himself into a "cold sleep" freezing machine, hoping to find a better future. When he wakes up, he discovers that he is in the year 2025.'
+        }
+        ,
+        {
+            title: 'Meal for Tomorrow',
+            genre: ['Romance'],
+            photo: 'MealForTomorrowPoster.jpg',
+            cast: ['Nakajima Yuto', 'Araki Yuko', 'Okayama Amane'],
+            type: 'movie',
+            description:'A 7-year love story between Hayama Ryota and Uemura Koharu from their first date to eventual marriage. Ryota and Koharu are high school students. Ryota is indifferent to people and says very little. Koharu is not afraid of to speak her mind and she has a bright personality. Since a game of rice bag jump, they begin to date. They date at a fast-food restaurant, realize they love each other at a family restaurant and finally swear their love on a dining table with white rice.'
+        }
+        ,
+        {
+            title: 'The Lies She Loved',
+            genre: ['Romance','Mystery'],
+            photo: 'TheLiesSheLovedPoster.jpg',
+            cast: ['Nagasawa Masami', 'Takahashi Issei', 'Yoshida Kotaro'],
+            type: 'movie',
+            description:'Yukari has lived with her caring, medical researcher boyfriend Kippei for five years. One day, she is waiting for Kippei to come home when a police officer suddenly pays her a visit and informs her Kippei has collapsed from a brain hemorrhage. Furthermore, his occupation and his name are falsified.'
+        }
+        ,
+        {
+            title: 'Impossibility Defense',
+            genre: ['Psychological','Mystery'],
+            photo: 'ImpossibilityDefensePoster.jpg',
+            cast: ['Matsuzaka Tori', 'Sawajiri Erika', 'Mackenyu', 'Mamiya Shotaro'],
+            type: 'movie',
+            description:'Usobuki Tadashi is a mysterious man in a black suit who will perform without fail a request to have someone killed. His targets unequivocally die from illness, suicide, accident, etc., but there is never proof of murder. The investigation is proving difficult, and the police detectives are being led around by Usobukis power to manipulate people. However, a female detective, Tada Tomoko, seems to be the only one Usobuki is unable to command.'
+        }
+        ,
+        {
+            title: 'Hanamizuki',
+            genre: ['Romance'],
+            photo: 'HanamizukiPoster.jpg',
+            cast: ['Ikuta Toma', 'Aragaki Yui'],
+            type: 'movie',
+            description:'Sae is a high school student who is studying hard for her college entrance exams. She lost her father when she was very young and so lives her mother Ryoko in Hokkaido, Japan. Her father Kemimichi once planted a dogwood tree in their garden after he found out he had a terminal disease and could not watch Sae grow up. She hopes to enter a university in Tokyo. \nShe then meets Kouhei, who attends a specialized high school teaching fishery. He hopes to follow in the footsteps of his father and grandfather as a fisherman. These two young people meet and have a long distance relationship. Although their love is strong it does not last. 10 years later these two people have a miracle.'
+        }
+        ,
+        {
+            title: 'Tremble All You Want',
+            genre: ['Romance','Comedy'],
+            photo: 'TrembleAllYouWantPoster.jpg',
+            cast: ['Matsuoka Mayu', 'Kitamura Takumi'],
+            type: 'movie',
+            description:'Yoshika is 24 years old and works at a company. She has never had a boyfriend in her life. Yoshika is a bit different. She likes searching for ammonite fossils all night long and she still feels a thrill when thinking about her first love, Ichi from her middle school days. One day, Ni, who works at the same company, confesses his feelings for her.'
+        }
+        ,
+        {
+            title: 'Love for Beginners',
+            genre: ['Romance','School'],
+            photo: 'LoveForBeginnersPoster.jpg',
+            cast: ['Matsuzaka Tori', 'Takei Emi', 'Yamazaki Kento'],
+            type: 'movie',
+            description:'Hibino Tsubaki is a young teenage girl with a talent for styling other peoples hair. Yet, Tsubaki suffers from low self-esteem and isnt very comfortable styling her own hair. She also has a tendency to dress old-fashioned. Shes teased at high school because of this. \n One day, popular male student Tsubaki Kyota targets Tsubaki for teasing. Tsubaki Kyota holds sway over the entire classroom and is quite a playboy. Inexplicably they fall in love. Meanwhile, Tsubaki Kyota has commitment issues.'
+        }
+        ,
+        {
+            title: 'Air Girl',
+            genre: ['Life'],
+            photo: 'AirGirlPoster.png',
+            cast: ['Hirose Suzu', 'Fujiki Naohito', 'Sakaguchi Kentaro'],
+            type: 'movie',
+            description:'Komari Sanos parents ran a small Tokyo factory that manufactured aircraft parts. With her parents influence, Komari Sano dreamed of becoming a pilot. During World War II, her older brother died as a kamikaze pilot and her parents died during the bombing of Tokyo. Komari Sano became an orphan and lived with her aunt. Her aunt ran a ryotei (high end traditional restaurant). \n After the war, all aerial activities were initially banned in Japan. After long negotiations with the Supreme Commander of the Allied Powers, Sizuo Matsuki, who is the security chief of Civil Aviation Bureau, finally launched Japans civil aviation. Komari Sano applies for the position of a cabin attendant.'
+        }
+        ,
+        {
+            title: 'His',
+            genre: ['Life', 'Romance','Family'],
+            photo: 'HisPoster.jpg',
+            cast: ['Miyazawa Hio', 'Fujiwara Kisetsu'],
+            type: 'movie',
+            description:'Shun and Nagisa first meet and fall in love during their first year of high school. While Shun is graduating from university, Nagisa tells him that he does not see a future for them. Despite Shuns strong feelings, they go their separate ways. \n Years later, Shun is now a store owner, living alone in a rural area. Out of the blue, Nagisa arrives with his six-year-old daughter, Sora. Spending time together, Shun realizes he still harbors feelings for Nagisa. Can Nagisa reconcile with his feelings for Shun, which have been there all along?'
+        }
+        ,
+        {
+            title: 'Any Crybabies Around?',
+            genre: ['Life'],
+            photo: 'AnyCrybabiesPoster.jpg',
+            cast: ['Nakano Taiga'],
+            type: 'movie',
+            description:'Komari Sanos parents ran a small Tokyo factory that manufactured aircraft parts. With her parents influence, Komari Sano dreamed of becoming a pilot. During World War II, her older brother died as a kamikaze pilot and her parents died during the bombing of Tokyo. Komari Sano became an orphan and lived with her aunt. Her aunt ran a ryotei (high end traditional restaurant). \n After the war, all aerial activities were initially banned in Japan. After long negotiations with the Supreme Commander of the Allied Powers, Sizuo Matsuki, who is the security chief of Civil Aviation Bureau, finally launched Japans civil aviation. Komari Sano applies for the position of a cabin attendant.'
+        }
+        ,
+        {
+            title: 'Mixed Doubles',
+            genre: ['Life','Romance'],
+            photo: 'MixedDoubles.jpg',
+            cast: ['Aragaki Yui','Nagano Mei','Nagayama Eita'],
+            type: 'movie',
+            description:'Considered a table tennis prodigy, little Tamako Tomita received strict lessons during her childhood, until her mothers death. Living an ordinary life, she is now a 28 years old office lady. Her boyfriend Akihiko Ejima, a member of the table tennis club at the same company, dumps Tamako for new employee and club member Airi Ogasawara. Devastated, Tamako goes back to her hometown  only to find the table tennis club run by her late mother looking moribund. There, she meets Hisashi Hagiwara, a new member who was dumped by his wife and daughter. To get revenge on her ex-boyfriend and to help revive the club, Tamako decides to team up with Hisashi and take part in a mixed doubles table tennis tournament. '
+        }
+        ,
+        {
+            title: 'Hikari',
+            genre: ['Crime'],
+            photo: 'HikariPoster.jpg',
+            cast: ['Iura Arata', 'Nagayama Eita'],
+            type: 'movie',
+            description:'When Nobuyuki was a middle school student, he lived on the remote island of Mihama. One evening, he committed a crime to protect his classmate/girlfriend Mika. The next day, a fierce tsunami struck the island. Nobuyuki, Mika, and their friend Tasuku, along with several adults, survived. 25 years later, Tasuku appears in front of Nobuyuki, who is now married to Namiko and has one child. '
+        }
+        ,
+        {
+            title: 'Daytime Shooting Star',
+            genre: ['Life'],
+            photo: 'DaytimeShootingStarPoster.jpg',
+            cast: ['Nagano Mei', 'Shirahama Alan','Miura Shohei'],
+            type: 'movie',
+            description:'Suzume Yosano is a first grade high school student. She lived in the countryside, but, due to her parents transferring overseas for work, Suzume now lives in Tokyo with her uncle (Ryuta Sato). Suzume has never had a boyfriend before, but she has feelings for her homeroom teacher Satsuki Shishio. Meanwhile, her classmate, Daiki Mamura, becomes attracted to Suzume.'
+        }
+        ,
+        {
+            title: 'Boku no Ita Jikan',
+            genre: ['Life','Romance'],
+            photo: 'BokuNoItaJikanPoster.jpg',
+            cast: ['Miura Haruma', 'Tabe Mikako','Saito Takumi'],
+            type: 'show',
+            description:'Sawada Takuto is an ordinary university student, who one day learns that he has A.L.S. (Lou Gehrig’s disease) with not much time left to live. Instead of wallowing in despair, Takuto tries to live his life to the fullest.'
+        }
+        ,
+        {
+            title: 'Brave',
+            genre: ['Action','Mystery'],
+            photo: 'BravePoster.jpg',
+            cast: ['Mackenyu', 'Miura Haruma','Suzuki Nobuyuki'],
+            type: 'movie',
+            description:'Students, including Nishino Aoi, take part in class and sports activities at a prestigious high school. Aoi is a member of the schools archery club. He practices archery studiously and doesnt socialise much with the other students. His childhood friend Seno Haruka is also a member of the archery club, but she worries about Aoi. One day, thunder strikes the school grounds. After that, the ordinary lives of the students change drastically. Many samurai descend on the school grounds. It appears that the entire school has travelled back in time to the Sengoku period. Making things worse, they realise that they are in the time right before the Battle of Okehazama takes place.'
+        }
+        ,
+        {
+            title: 'The Voice of Sin',
+            genre: ['Mystery'],
+            photo: 'VoiceOfSinPoster.jpg',
+            cast: ['Hoshino Gen', 'Oguri Shun'],
+            type: 'movie',
+            description:'Akutsu Eiji is a newspaper reporter. He is working on unsolved case that took place 30 years ago. The case involved a group of people extorting several companies for money. The group sent cassette tapes to the companies. Akutsu Eiji comes across a mysterious cassette tape. Meanwhile, Sone Toshiya lives in Kyoto and runs a tailor shop. He discovers a cassette tape among his late fathers possessions. He plays the cassette tape and hears his voice from his childhood days. '
+        }
+        ,
+        {
+            title: 'Daytime Shooting Star',
+            genre: ['Life'],
+            photo: 'DaytimeShootingStarPoster.jpg',
+            cast: ['Nagano Mei', 'Shirahama Alan','Miura Shohei'],
+            type: 'movie',
+            description:'Suzume Yosano is a first grade high school student. She lived in the countryside, but, due to her parents transferring overseas for work, Suzume now lives in Tokyo with her uncle (Ryuta Sato). Suzume has never had a boyfriend before, but she has feelings for her homeroom teacher Satsuki Shishio. Meanwhile, her classmate, Daiki Mamura, becomes attracted to Suzume.'
+        }
+        ,
+        {
+            title: 'Ore no Kawaii',
+            genre: ['Office','Romance','Comedy'],
+            photo: 'OreNoKawaiiPoster.jpg',
+            cast: ['Yamada Ryosuke', 'Ohashi Kazuya','Yoshine Kyoko'],
+            type: 'show',
+            description:'The story features two people who experience their first loves late in life. \n Maruya Kosuke is a 29-year-old employee at a beer manufacturer who works in the sales department and comes from a rich family that owns a brewery. Since he was young, he has been popular thanks to his good looks and always receives confessions of love from women. However, he gets a rude awakening one day when he realizes that his cuteness has an expiration date. \n Sanada Izumi works as a researcher in the same company as Kosuke and always thinks of herself as being secondary to others due to a past experience.'
+        }
+        ,
+        {
+            title: 'Kiokuya',
+            genre: ['Mystery'],
+            photo: 'KiokuyaPoster.jpg',
+            cast: ['Yamada Ryosuke', 'Yoshine Kyoko'],
+            type: 'movie',
+            description:'Ryoichi Yoshimori is a university student. His girlfriend Kyoko Sawada is older than him, but he enjoys his time with her. After Ryoichi Yoshimori proposes to his girlfriend, she suddenly disappears one day. Several days later, he finally sees her again but she has no memory of him. Ryoichi Yoshimori is stunned, but he suspects her memory loss is related to the Kiokuya rumor. A person named Kiokuya is reputed to erase the memories of people. He talks to Tomoaki Takahara, who is a lawyer and attended the same university as him, about his situation. Ryoichi Yoshimori searches for the cause of Kyoko Sawada’s memory loss and gets help from childhood friend Maki Kawai and Tomoaki Takahara’s assistant.'
+        }
+        ,
+        {
+            title: 'No Longer Human',
+            genre: ['Life','Psychological'],
+            photo: 'NoLongerHumanPoster.jpg',
+            cast: ['Oguri Shun', 'Chiba Yudai', 'Sawajiri Erika'],
+            type: 'movie',
+            description:'Based on the true story of novelist Osamu Dazai. \n Osamu Dazai is the one of the most popular author in Japan, but he is absorbed in alcohol and love. He is married and has two lovers.'
+        }
+        ,
+        {
+            title: 'Blank 13',
+            genre: ['Life','Family'],
+            photo: 'Blank13Poster.jpg',
+            cast: ['Saito Takumi', 'Takahashi Issei','Matsuoka Mayu'],
+            type: 'movie',
+            description:'Family members learn the whereabouts of the father who vanished without a trace 13 years ago. However, he dies of cancer three months later, leaving Koji and his family members without closure. Koji and his family think they cant reclaim the lost 13 years, but the stories told about their father by mourners at the funeral reveal the truth that was unknown to the family'
+        }
+        ,
+        {
+            title: 'One Night',
+            genre: ['Family','Life'],
+            photo: 'OneNightPoster.jpg',
+            cast: ['Matsuoka Mayu', 'Sato Takeru'],
+            type: 'movie',
+            description:'In one night, an event  took place involving Koharu and her three children: first son Hiroki, second son Yuji and daughter Sonoko.  The tragedy would shatter the  family, forcing  them each to lead separate lives. \n Fifteen years later, the family reunites,  Yuji is now a freelance writer.  Hiroki has difficulty communicating with others.  Sonoko dreamt  of becoming a hairdresser, but  gave up on her dream after what happened 15 years ago.  Now she works at a  snack bar.'
+        }
+        ,
+        {
+            title: 'Saumurai Shifters',
+            genre: ['Comedy','Action'],
+            photo: 'SamuraiShiftersPoster.jpg',
+            cast: ['Hoshino Gen', 'Takahashi Issei','Ozawa Yukiyoshi'],
+            type: 'movie',
+            description:'Harunosuke Katagiri is a samurai who loves reading. When he receives a mission to help a daimyo move, he recruits the help of Genemon Takamura and Oran in order to carry out his mission.'
+        }
+        ,
+        {
+            title: 'One Night',
+            genre: ['Family','Life'],
+            photo: 'OneNightPoster.jpg',
+            cast: ['Matsuoka Mayu', 'Sato Takeru'],
+            type: 'movie',
+            description:'In one night, an event  took place involving Koharu and her three children: first son Hiroki, second son Yuji and daughter Sonoko.  The tragedy would shatter the  family, forcing  them each to lead separate lives. \n Fifteen years later, the family reunites,  Yuji is now a freelance writer.  Hiroki has difficulty communicating with others.  Sonoko dreamt  of becoming a hairdresser, but  gave up on her dream after what happened 15 years ago.  Now she works at a  snack bar.'
+        }
+        ,
+        {
+            title: 'My Daddy',
+            genre: ['Family','Life'],
+            photo: 'MyDaddy.jpg',
+            cast: ['Muro Tsuyoshi', 'Nao'],
+            type: 'movie',
+            description:'Mido Kazuo is a pastor at a small church. He lost his wife 8 years ago and raises his only daughter, a junior high school student, singlehandedly. When she is diagnosed with an illness, he undergoes a drastic change.'
+        }
+        ,
+        {
+            title: 'Samurai Marathon',
+            genre: ['Crime'],
+            photo: 'SamuraiMarathonPoster.jpg',
+            cast: ['Nao', 'Sato Takeru','Komatsu Nana'],
+            type: 'movie',
+            description:'Set at the end of the Edo period. With the approaching threat of foreigners, the Annaka lords Katsuaki Itakura decided to train samurais by holding an excursion running through ten Gosato (about 58 km) along the mountain road. \n However, this movement is mistaken for treason by the shogunate, who decide to assassinate Katsuaki staying in the castle during the absence of samurais. Only one person, a man who knew that a crisis is approaching, in order to stop the plan, begins to run..'
+        }
+        ,
+        {
+            title: 'Moonlight Shadow',
+            genre: ['Life'],
+            photo: 'MoonlightShadowPoster.jpg',
+            cast: ['Komatsu Nana', 'Miyazawa Hio'],
+            type: 'movie',
+            description:'Satsukis lover Hitoshi dies suddenly. She is unable to get over his death and is mired in deep sadness. Satsuki keeps thinking about the moon shadow phenomenon, which she heard about in the past. The moon shadow phenomenon is a mysterious event that allows a person to meet the dead at the end of a full moon.'
+        }
+        ,
+        {
+            title: 'Tapestry',
+            genre: ['Romance','Life'],
+            photo: 'TapestryPoster.jpg',
+            cast: ['Komatsu Nana', 'Suda Masaki','Saito Takumi','Yamamoto Mizuki'],
+            type: 'movie',
+            description:'Takahashi Ren and Sonoda Aoi both born in 1989 will weave an 18-year tapestry of love going through each others lives with repeated encounters and partings'
+        }
+        ,
+        {
+            title: 'The Fable',
+            genre: ['Action','Comedy','Crime'],
+            photo: 'TheFablePoster.jpg',
+            cast: ['Yamamoto Mizuki', 'Fukushi Sota','Okada Junichi'],
+            type: 'movie',
+            description:'A boy was trained to be a killer. Several years later, he is now an elite contract killer nicknamed Fable. The man takes a year off from his job as an assassin in order to live like an ordinary person in Osaka..'
+        }
+        ,
+        {
+            title: 'It Comes',
+            genre: ['Mystery','Psychological'],
+            photo: 'ItComesPoster.jpg',
+            cast: ['Okada Junichi', 'Komatsu Nana','Kuroki Haru'],
+            type: 'movie',
+            description:'Hideki Tahara and Kana Tahara are newlyweds. Hideki is excited about his future with Kana. One day, a mysterious person visits the company where Hideki works. Hidekis colleague conveys the visitors message to Hideki "about Chisa-san case.” As soon as Hideki hears the name Chisa, he becomes stunned. His wife is pregnant and they have picked the name Chisa for their baby. Only Hideki and Kana know the name. Soon the colleague that talked to the visitor has a mysterious death. \n 2 years later, more mysterious cases take place around Hideki. He is then introduced to freelance writer Nozaki and his girlfriend Makoto Higa'
+        }
+        ,
+        {
+            title: 'Space Brothers',
+            genre: ['Comedy'],
+            photo: 'SpaceBrothersPoster.jpg',
+            cast: ['Oguri Shun', 'Okada Masaki', 'Aso Kumiko'],
+            type: 'movie',
+            description:'When Mutta was 12-years-old and Hibito was 9-years-old the two brothers saw what they thought was an UFO flying towards the moon. They made a pact then to become astronauts and one day fly into space together. \n Fast forward to the year 2025. Older brother Mutta works as for an automotive company and his younger brother Hibito works as an astronaut. Although Mutta failed to follow through on his childhood promise, after losing his job, he receives a phone call from Hibito which reignites his childhood dream of flying into outer space.'
+        }
 
 ]
