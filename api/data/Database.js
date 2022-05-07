@@ -1055,11 +1055,74 @@ module.exports = [
         ,
         {
             title: 'Space Brothers',
+            genre: ['Life'],
+            photo: 'SpaceBrothersPoster.jpg',
+            cast: ['Oguri Shun', 'Okada Masaki', 'Aso Kumiko'],
+            type: 'movie',
+            description:'When Mutta was 12-years-old and Hibito was 9-years-old the two brothers saw what they thought was an UFO flying towards the moon. They made a pact then to become astronauts and one day fly into space together. \n Fast forward to the year 2025. Older brother Mutta works as for an automotive company and his younger brother Hibito works as an astronaut. Although Mutta failed to follow through on his childhood promise, after losing his job, he receives a phone call from Hibito which reignites his childhood dream of flying into outer space.'
+        }
+        ,
+        {
+            title: 'Someone',
+            genre: ['Life'],
+            photo: 'SomeonePoster.jpg',
+            cast: ['Arimura Kasumi', 'Suda Masaki', 'Sato Takeru','Okada Masaki'],
+            type: 'movie',
+            description:'Five university students gather to exchange information on their job search activities. They encourage each other and post their thoughts & worries on Twitter, but behind that they have a lot on their minds. \nTakuto Ninomiya observes those around him. His roommate Kotaro Kamiya has a bright personality and communicates well with others. Mizuki Tanabe is Kotaro Kamiya’s ex-girlfriend. Takuto Ninomiya has feelings for his roommates ex-girlfriend. Rika Kobayakawa is determined to land a job. Takayoshi Miyamoto is critical of job-seeking activities, but he later tries to get a job.'
+        }
+        ,
+        {
+            title: 'Gift of Fire',
+            genre: ['Life'],
+            photo: 'GiftOfFirePoster.jpg',
+            cast: ['Miura Haruma', 'Arimura Kasumi'],
+            type: 'movie',
+            description:'Inspired by true events regarding Japans attempt to develop an atomic bomb in the last days of World War II.'
+        }
+        ,
+        {
+            title: 'Space Brothers',
             genre: ['Comedy'],
             photo: 'SpaceBrothersPoster.jpg',
             cast: ['Oguri Shun', 'Okada Masaki', 'Aso Kumiko'],
             type: 'movie',
             description:'When Mutta was 12-years-old and Hibito was 9-years-old the two brothers saw what they thought was an UFO flying towards the moon. They made a pact then to become astronauts and one day fly into space together. \n Fast forward to the year 2025. Older brother Mutta works as for an automotive company and his younger brother Hibito works as an astronaut. Although Mutta failed to follow through on his childhood promise, after losing his job, he receives a phone call from Hibito which reignites his childhood dream of flying into outer space.'
+        }
+        ,
+        {
+            title: 'Farewell Song',
+            genre: ['Life','Romance'],
+            photo: 'FarewellSongPoster.jpg',
+            cast: ['Komatsu Nana', 'Kadowaki Mugi'],
+            type: 'movie',
+            description:'Haru  and Reo  make up the musical duo Haru-Reo. Despite becoming an overnight success, they decide to disband. However before doing so, they decided to go on one final tour together. Their roadie Shima  goes with the girls on the tour. Reo has feelings for Shima, but Shima has feelings for Haru.'
+        }
+        ,
+        {
+            title: 'Wotakoi',
+            genre: ['Comedy'],
+            photo: 'WotakoiPoster.jpg',
+            cast: ['Yamazaki Kento', 'Nanao', 'Kaku Kento','Imada Mio'],
+            type: 'movie',
+            description:'Momose Narumi is a 26-year-old OL. She begins work at a new company. There, Narumi meets her old childhood friend Nifuji Hirotaka. Hirotaka is handsome and good at his job, but he is an otaku (obsessed with specific pop culture content). Narumi herself enjoys reading boys love manga, but she hides that from others. She is only able to reveal her interest with Hirotaka. \n After work, Narumi and Hirotaka talk about their otaku interests. Hirotaka asks her if they can date, telling her it will be nice to be an otaku couple. They begin their relationship as boyfriend and girlfriend, but they face many hardships and difficulties.'
+        }
+        ,
+        {
+            title: 'Demekin',
+            genre: ['Comedy','Action','School'],
+            photo: 'Demekin.jpg',
+            cast: ['Ito Kentaro', 'Imada Mio', 'Yamada Yuki'],
+            type: 'movie',
+            description:'As a child, Masaki Sata was teased and bullied because of his appearance and called “Demekin” (popeyed goldfish). He decided to fight back and eventually became unbeatable in fights. His red hair also became a trademark. Masaki Sata and his buddy Atsunari then spent their days fighting and riding motorcycles. After middle school, Masaki Sata went on to high school and Atsunari begins to work at a ramen restaurant. \n One day, Atsunari comes up with the idea of starting a motorcycle gang with Masaki Sata. What awaits for them are enemies'
+        }
+        ,
+        {
+            title: 'Rainbow Days',
+            genre: ['Comedy','Romance','School'],
+            photo: 'RainbowDaysPoster.jpg',
+            cast: ['Yokohama Ryusei', 'Nakagawa Taishi', 'Yamada Yuki'],
+            type: 'movie',
+            description:'Natchan, Mattsun, Tsuyopon, and Keichan are inseparable high school buddies despite having completely different personalities and interests. Their good times at school undergo a change when Natchan, a latecomer to love, falls for their classmate Anna.'
         }
 
 ]
