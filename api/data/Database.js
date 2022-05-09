@@ -973,12 +973,12 @@ module.exports = [
         }
         ,
         {
-            title: 'One Night',
-            genre: ['Family','Life'],
-            photo: 'OneNightPoster.jpg',
-            cast: ['Matsuoka Mayu', 'Sato Takeru'],
-            type: 'movie',
-            description:'In one night, an event  took place involving Koharu and her three children: first son Hiroki, second son Yuji and daughter Sonoko.  The tragedy would shatter the  family, forcing  them each to lead separate lives. \n Fifteen years later, the family reunites,  Yuji is now a freelance writer.  Hiroki has difficulty communicating with others.  Sonoko dreamt  of becoming a hairdresser, but  gave up on her dream after what happened 15 years ago.  Now she works at a  snack bar.'
+            title: 'My Neighbor Chikara',
+            genre: ['Family','Comedy'],
+            photo: 'ChikaraPoster.jpg',
+            cast: ['Matsumoto Jun', 'Ueto Aya','Ozawa Yukiyoshi'],
+            type: 'show',
+            description:'Chikara Nakagoshi is married and has two children. His family lives together at a complex in Tokyo. He introduces himself as a novelist, but he is actually a ghost writer and writes essays for famous people. He is usually busy with his writing and doing house chores, but, when he sees people who need help, he cant ignore them. He approaches those people and asks them if they are doing okay and if they have a problem'
         }
         ,
         {
@@ -1081,12 +1081,12 @@ module.exports = [
         }
         ,
         {
-            title: 'Space Brothers',
-            genre: ['Comedy'],
-            photo: 'SpaceBrothersPoster.jpg',
-            cast: ['Oguri Shun', 'Okada Masaki', 'Aso Kumiko'],
-            type: 'movie',
-            description:'When Mutta was 12-years-old and Hibito was 9-years-old the two brothers saw what they thought was an UFO flying towards the moon. They made a pact then to become astronauts and one day fly into space together. \n Fast forward to the year 2025. Older brother Mutta works as for an automotive company and his younger brother Hibito works as an astronaut. Although Mutta failed to follow through on his childhood promise, after losing his job, he receives a phone call from Hibito which reignites his childhood dream of flying into outer space.'
+            title: 'Bloody Monday',
+            genre: ['Life'],
+            photo: 'BloodyMondayPoster.jpg',
+            cast: ['Miura Haruma', 'Sato Takeru', 'Kichise Michiko'],
+            type: 'show',
+            description:'Based on Ryo Ryumons manga, "Bloody Monday" centers around high school student Fujimaru Takagi (Haruma Miura). Fujimaru Takagi is a white hat computer hacker who must clear his fathers name by solving the "Bloody Monday" mystery involving Russian terrorists.'
         }
         ,
         {
