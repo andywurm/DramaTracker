@@ -487,7 +487,7 @@ module.exports = [
         }
         ,
         {
-            title: 'The Cinderella Addiction',
+            title: 'Cinderella Addiction',
             genre: ['Family', 'Mystery'],
             photo: 'TheCinderellaAddictionPoster.jpg',
             cast: ['Tsuchiya Tao', 'Tanaka Kei'],
