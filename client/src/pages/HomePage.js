@@ -16,7 +16,7 @@ function HomePage(props) {
   useEffect(() => {
 
     const getData = async () => {
-      const data = await fetch('http://localhost:5000/api/contents')
+      const data = await fetch('https://drama-tracker-andy.herokuapp.com/api/contents')
 
       const json = await data.json();
       const num = Math.ceil(json.length / 25);

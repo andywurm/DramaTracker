@@ -15,7 +15,7 @@ function MyListPage(props) {
 
     const getData = async () => {
 
-      const data = await fetch(`http://localhost:5000/api/users/list?username=${user.username}`)
+      const data = await fetch(`https://drama-tracker-andy.herokuapp.com/api/users/list?username=${user.username}`)
 
 
       const json = await data.json();

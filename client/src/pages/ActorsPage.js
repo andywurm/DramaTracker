@@ -11,7 +11,7 @@ function ActorsPage(props) {
   useEffect(() => {
 
     const getData = async () => {
-      const data = await fetch('http://localhost:5000/api/contents')
+      const data = await fetch('https://drama-tracker-andy.herokuapp.com/api/contents')
 
       const json = await data.json();
       setContents(json);
@@ -29,7 +29,7 @@ function ActorsPage(props) {
 
   useEffect(() => {
     const getData2 = async () => {
-      const data2 = await fetch('http://localhost:5000/api/actors')
+      const data2 = await fetch('https://drama-tracker-andy.herokuapp.com/api/actors')
       const json = await data2.json();
       setActor(json);
       console.log(json);
