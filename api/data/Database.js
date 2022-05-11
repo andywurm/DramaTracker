@@ -399,7 +399,7 @@ module.exports = [
         {
             title: 'Ningyo no Nemuru ie',
             genre: ['Life'],
-            photo:'NingyoNONemuruIePoster.jpg',
+            photo:'NingyoNoNemuruIePoster.jpg',
             cast: ['Shinohara Ryoko', 'Nishijima Hidetoshi'],
             type: 'movie',
             description: 'Kaoruko Harima has two children. She lives separately from her husband Kazuaki. They have agreed to divorce after their daughters exam for elementary school finishes. One day, they learn that their daughter drowned in a swimming pool. The doctor informs them that their daughter is brain dead and does not have a chance to recover. The couple has two choices. One choice is to donate Mizuhos organs to others in need and their other choice is to wait until Mizuhos heart stops beating.'
