@@ -1,10 +1,10 @@
-import React, {useContext} from 'react';
+import React, { useContext } from 'react';
 import { useHistory } from 'react-router-dom';
 import { UserContext } from '../hooks/UserContext';
 
 function DisplayContentPage(props) {
 
-  const {user} = useContext(UserContext);
+  const { user } = useContext(UserContext);
 
   console.log(props.location.state.show);
   const data = props.location.state.show;
@@ -30,7 +30,6 @@ function DisplayContentPage(props) {
       )
       console.log(response);
     }
-
 
   }
 
